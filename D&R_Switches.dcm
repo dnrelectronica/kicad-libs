@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PB06-A-RG
+D Honyone PB06 Switch 12mm
+$ENDCMP
+#
+$CMP PB06-C-RG
+D Honyone PB06 Switch 17,4mm
+$ENDCMP
+#
+$CMP PS004-L22NPS4XWURPG
+D Well Buying latching 2P switch with small cap
+$ENDCMP
+#
+$CMP PS004-N22NPS4XWURPG
+D Well Buying non-latching 2P switch with small cap
+$ENDCMP
+#
+$CMP PS004-N22NPS5XWURPG
+D Well Buying non-latching 2P switch with large cap
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Hole_3.5mm
+D Connector 01x02
+$ENDCMP
+#
+$CMP Platstaf_10x25
+D Connector 01x02
+$ENDCMP
+#
+#End Doc Library

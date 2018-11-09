@@ -1,0 +1,237 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC165#TSSOP16
+D 8-Bit Parallel-Load Shift Registers
+$ENDCMP
+#
+$CMP 74HC4053#TSSOP16
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74LVC4245A#TSSOP24
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC595#TSSOP16
+D 8-Bit Shift Register
+$ENDCMP
+#
+$CMP 93C46#SO8
+D Serial EEPROM, 93 series in 8-pin package, 5.0V
+K EEPROM memory SPI microwire
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP ADC108S052#TSSOP16
+D ADC108S052 8-Channel, 200 ksps to 500 ksps, 10-Bit A/D Converter
+$ENDCMP
+#
+$CMP ADS7956-Q1#TSSOP38
+D ADC108S052 8-Channel, 200 ksps to 500 ksps, 10-Bit A/D Converter
+$ENDCMP
+#
+$CMP AP2331#SOT23
+D 0.2A SINGLE CHANNEL CURRENT-LIMITED LOAD SWITCH
+$ENDCMP
+#
+$CMP AP7115#SOT353
+D 150mA LOW DROPOUT LINEAR REGULATOR WITH
+$ENDCMP
+#
+$CMP AP7115_2V5#SOT353
+D 150mA LOW DROPOUT LINEAR REGULATOR WITH
+$ENDCMP
+#
+$CMP AP7115_3V3#SOT353
+D 150mA LOW DROPOUT LINEAR REGULATOR WITH
+$ENDCMP
+#
+$CMP AQY212EHA#SOIC4_W
+D PhotoMos 60V 550mA DIP Form A Norm-Open
+K MOSFET Output Photorelay 1-Form-A
+$ENDCMP
+#
+$CMP ATXMEGA128A4U#TQFP44
+D TQFP44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA32A4U#TQFP44
+D TQFP44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP BC807#SOT23
+D 45V Vce, 0.8A Ic, PNP, SOT-23
+K BC807 BC327 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC808-40
+D 25V Vce, 0.8A Ic, PNP, SOT-23
+K BC808 BC328 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC817#SOT23
+D 45V Vce, 0.8A Ic, NPN, SOT-23
+K BC817 BC337 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BC818-40
+D 25V Vce, 0.8A Ic, NPN, SOT-23
+K BC818 BC337 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BSC265N10#TDSON8
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP CM119B#LQFP48
+D A Highly Integrated USB Audio Single Chip
+$ENDCMP
+#
+$CMP CP2114#QFN32
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP DMG1012T#SOT523
+D N-CHANNEL ENHANCEMENT MODE MOSFET
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP ESD5384#9-UFBGA
+D 5-Line HDMI Control Line ESD Protection
+$ENDCMP
+#
+$CMP IRF7807ZP#SO8
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP LAN9512#QFN64
+D USB 2.0 Hub and 10/100
+$ENDCMP
+#
+$CMP LM25575#HTSSOP16
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP LM311#TSSOP8
+D That Dual VCA
+$ENDCMP
+#
+$CMP LM3488#VSSOP8
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP LM5576#HTSSOP20
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP LP2985A-50#SOT23
+D 150mA LOW DROPOUT LINEAR REGULATOR WITH
+$ENDCMP
+#
+$CMP MMBFJ112#SOT23
+D JFET N-CH 40V 0.3W SOT23
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP MMUN2211LT1#SOT23
+D Pre-Biased Bipolar Transistor (BJT) NPN - Pre-Biased 50V 100mA 246mW Surface Mount SOT-23-3 (TO-236)
+K npn transistor
+$ENDCMP
+#
+$CMP MUN5311DW1T1#SOT363
+D Bipolar Transistors - Pre-Biased 100mA Complementary 50V NPN & PNP
+$ENDCMP
+#
+$CMP NE5532D#SO8
+D Dual Opamp
+$ENDCMP
+#
+$CMP OPA2337#SOT23-8
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP PAM2306#WDFN12
+D DUAL HIGH-EFFICIENCY PWM STEP-DOWN DC-DC CONVERTER
+$ENDCMP
+#
+$CMP PAM2306AYPKB
+D DUAL HIGH-EFFICIENCY PWM STEP-DOWN DC-DC CONVERTER
+$ENDCMP
+#
+$CMP PCM2900C#SSOP28
+D Stereo USB1.1 CODEC with line-out (HID Interface)
+$ENDCMP
+#
+$CMP SN74LVC244A#TSSOP20
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP THAT1510#SO8
+D Mic preamp
+$ENDCMP
+#
+$CMP THAT2162#QSOP16
+D That Dual VCA
+$ENDCMP
+#
+$CMP TL072CD#SO8
+D Dual Opamp
+$ENDCMP
+#
+$CMP TL074#SO14
+D Quad Opamp
+$ENDCMP
+#
+$CMP TLC5925PWR#TSSOP24
+D 16 Channel Constant Current LED Driver with LED Open Detection
+$ENDCMP
+#
+$CMP TLC5928PWR#TSSOP24
+D 16 Channel Constant Current LED Driver with LED Open Detection
+$ENDCMP
+#
+$CMP TLV1117LV33#SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP TLV70237DBV
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.7V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
+$ENDCMP
+#
+$CMP TLV70237DBVT#TSOP5
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv70225.pdf
+$ENDCMP
+#
+$CMP TPA6120A2#DWP20
+D Dual High power Headphone Amp
+$ENDCMP
+#
+$CMP TPS5431#SO8
+D Wide Input Range, Step-Down Converter
+$ENDCMP
+#
+#End Doc Library

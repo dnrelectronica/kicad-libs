@@ -1,0 +1,182 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2P
+D Connector 01x02
+$ENDCMP
+#
+$CMP 2P_ScrewTerminal
+D Connector 01x02
+$ENDCMP
+#
+$CMP 74990112116A
+D RJ45 LAN/Ethernet Connector with LED's and magnetics
+$ENDCMP
+#
+$CMP CINCH-LPA0860V
+D 1 x Stereo Cinch Horizontal
+K CONN
+$ENDCMP
+#
+$CMP CINCH-LPA0863V
+D 2 x Stereo Cinch Horizontal
+K CONN
+$ENDCMP
+#
+$CMP CONN_01X16
+D Connector 01x16
+$ENDCMP
+#
+$CMP CONN_02X12
+D Connector 02x12
+$ENDCMP
+#
+$CMP CONN_2114-2x12
+D Connector 02x12
+$ENDCMP
+#
+$CMP CONN_2114-2x20
+D Connector 02x12
+$ENDCMP
+#
+$CMP CONN_2141-2x12
+D Connector 02x12
+K Female Header
+$ENDCMP
+#
+$CMP CONN_2141-2x20
+D Connector 02x20 FEMALE
+$ENDCMP
+#
+$CMP CONN_3011-02X05
+D Connector 02x10
+$ENDCMP
+#
+$CMP CONN_3011-02X10
+D Box Header 2 x 10 Right Angle
+$ENDCMP
+#
+$CMP CONN_3011-02X10_S
+D Box Header 2 x 10 Straight Angle
+$ENDCMP
+#
+$CMP CONN_3011-02X17
+D Box Header 2 x 17 (34P) 90' Angle
+$ENDCMP
+#
+$CMP CONN_3011-02X17_S
+D Box Header 2 x 17 (34P) Straight Angle
+$ENDCMP
+#
+$CMP CONN_3011-02X20
+D Connector, double row, 02x20, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_4771-01X03
+D Connector 01x03
+$ENDCMP
+#
+$CMP Conn_02x17_Odd_Even
+D Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DDR2_SODIMM
+D DDR2 SO DIMM slot normal
+$ENDCMP
+#
+$CMP HDMI_WR-COM
+D HDMI Connector
+$ENDCMP
+#
+$CMP HEADER_01X04F_ANG
+D Connector, single row, 01x04, pin header
+K connector
+$ENDCMP
+#
+$CMP HEADER_01X04M
+D Connector, single row, 01x04, pin header
+K connector
+$ENDCMP
+#
+$CMP HEADER_1X16F
+D Connector 01x16
+$ENDCMP
+#
+$CMP HEADER_1X16M
+D Connector 01x16
+$ENDCMP
+#
+$CMP HEADER_6410-01X03
+D 3P HEADER Molex KK Series 2.54mm Pitch
+$ENDCMP
+#
+$CMP Hole_3.5mm
+D Connector 01x02
+$ENDCMP
+#
+$CMP Jack-LJ0697H-5
+D 6,3mm TRS JAck with insert contacts Vertical
+$ENDCMP
+#
+$CMP RJ45_8949-L1
+D RJ45 LAN/Ethernet Connector with LED's
+$ENDCMP
+#
+$CMP USB_2xA
+D USB Dual Type A connector
+K connector USB USB_A
+$ENDCMP
+#
+$CMP USB_B
+D USB Type B connector
+K connector USB USB_B
+$ENDCMP
+#
+$CMP XLR3-F
+D 3 Pin XLR Female LX-1604H3
+K CONN
+$ENDCMP
+#
+$CMP XLR3-F-LX-1602
+D 3 Pin XLR Female LX-1602 Horizontal
+K CONN
+$ENDCMP
+#
+$CMP XLR3-F_0
+D 3 Pin XLR Female LX-1604H3
+K CONN
+$ENDCMP
+#
+$CMP XLR3-M
+D 3 Pin XLR Male LX-1601H-3
+K CONN
+$ENDCMP
+#
+$CMP XLR3-M-LX-1603
+D 3 Pin XLR Male LX-1603 Horizontal
+K CONN
+$ENDCMP
+#
+$CMP XLR3-M_0
+D 3 Pin XLR Male LX-1601H-3
+K CONN
+$ENDCMP
+#
+$CMP XLR5-M
+D 3 Pin XLR Male LX-1601H-3
+K CONN
+$ENDCMP
+#
+$CMP ZIF24BC#FPC24
+D Connector, single row, 01x24 Bottom Contacts
+K connector
+$ENDCMP
+#
+$CMP ZIF24TC#FPC24
+D Connector, single row, 01x24 Top Contacts
+K connector
+$ENDCMP
+#
+#End Doc Library

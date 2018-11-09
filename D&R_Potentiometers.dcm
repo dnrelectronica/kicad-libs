@@ -1,0 +1,56 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3296Y-1-202
+D Trim potmeter 2K  25 turn vertical adj srew
+K R
+$ENDCMP
+#
+$CMP 3296Z-1-203
+D Trim potmeter 20K hor adj srew
+K R
+$ENDCMP
+#
+$CMP Dual_Pot_Alps
+D Alps 100mm Fader
+$ENDCMP
+#
+$CMP PEC11R
+D PEC11R Series - 12 mm Incremental Encoder
+$ENDCMP
+#
+$CMP RK0952G-1
+D SongHuei potmeter
+K airlite
+$ENDCMP
+#
+$CMP RK0952G-1_100KB
+D SongHuei Pot 100K Lin
+K airlite
+$ENDCMP
+#
+$CMP RK0952G-1_100KB_CC
+D SongHuei Pot 100K Lin With Center Click
+K airlite
+$ENDCMP
+#
+$CMP RK0952G-1_10KA
+D SongHuei Pot 10K Log
+K airlite
+$ENDCMP
+#
+$CMP RK0952G-1_10KB
+D SongHuei Pot 10K Lin
+K airlite
+$ENDCMP
+#
+$CMP RSA0N111900Q
+D Alps 100mm Fader
+K airlite
+$ENDCMP
+#
+$CMP RSA0N11S1AOC
+D Alps 100mm Fader [Small]
+K airlite
+$ENDCMP
+#
+#End Doc Library
