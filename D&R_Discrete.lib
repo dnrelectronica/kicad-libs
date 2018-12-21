@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # 1N4148WS#SOD323
@@ -125,7 +125,7 @@ ENDDEF
 DEF ~B340#SMB D 0 40 N N 1 F N
 F0 "D" -150 -50 50 H V C CNN
 F1 "B340#SMB" 0 -150 50 H I L CNN
-F2 "Diodes_SMD:SMB_Standard" 0 -450 50 H I L CNN
+F2 "D&R_Discrete:SMB" 0 -450 50 H I L CNN
 F3 "http://www.diodes.com/_files/datasheets/ds30923.pdf" 0 -650 50 H I L CNN
 F4 "B340" -150 150 50 H V L CNN "Short Description"
 F5 "10250511" 0 -250 50 H I L CNN "D&R"

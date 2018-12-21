@@ -88,4 +88,10 @@ $CMP V3-0524S
 D DC-DC converter 2W unreg. +/-24V 48V
 $ENDCMP
 #
+$CMP XTAL16.0MHZ#2.5X3.2
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 #End Doc Library

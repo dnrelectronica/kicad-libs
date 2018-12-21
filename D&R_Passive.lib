@@ -33,19 +33,17 @@ X 2 2 0 -150 50 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 0R015#1206
+# 0R1#0603
 #
-DEF ~0R015#1206 R 0 40 N N 1 F N
+DEF ~0R1#0603 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "0R015#1206" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_1206" 10 -510 60 H I L CNN
-F3 "http://www.farnell.com/datasheets/1790602.pdf" 1100 -700 60 H I C CNN
-F4 "1035****" 10 -260 60 H I L CNN "D&R"
-F5 "0R015" 0 0 39 V V C CNN "Component Value"
+F1 "0R1#0603" 10 -350 60 H I L CNN
+F2 "R_0603" 10 -510 60 H I L CNN
+F3 "" 1100 -700 60 H I C CNN
+F4 "10353878" 10 -260 60 H I L CNN "D&R"
+F5 "0R1" 0 0 39 V V C CNN "Component Value"
 F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
 F7 "SMT" 10 -600 60 H I L CNN "Assembly Option"
-F8 "Panasonic" 250 -950 60 H I C CNN "manf"
-F9 "ERJ8CWFR015V" 350 -850 60 H I C CNN "manf#"
 DRAW
 S -40 100 40 -100 0 1 8 N
 X 1 1 0 150 50 D 50 50 1 1 I
@@ -53,17 +51,19 @@ X 2 2 0 -150 50 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 0R1#0603
+# 0R15#1206
 #
-DEF ~0R1#0603 R 0 40 N N 1 F N
+DEF ~0R15#1206 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "0R1#0603" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_0603" 10 -510 60 H I L CNN
-F3 "" 1100 -700 60 H I C CNN
-F4 "10353878" 10 -260 60 H I L CNN "D&R"
-F5 "0R1" 0 0 39 V V C CNN "Component Value"
+F1 "0R15#1206" 10 -350 60 H I L CNN
+F2 "R_1206" 10 -510 60 H I L CNN
+F3 "http://www.farnell.com/datasheets/1790602.pdf" 1100 -700 60 H I C CNN
+F4 "1035****" 10 -260 60 H I L CNN "D&R"
+F5 "0R15" 0 0 39 V V C CNN "Component Value"
 F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
 F7 "SMT" 10 -600 60 H I L CNN "Assembly Option"
+F8 "Panasonic" 250 -950 60 H I C CNN "manf"
+F9 "ERJ8CWFR015V" 350 -850 60 H I C CNN "manf#"
 DRAW
 S -40 100 40 -100 0 1 8 N
 X 1 1 0 150 50 D 50 50 1 1 I
@@ -207,6 +207,7 @@ F6 "35V" 70 -120 39 H V C CNN "Voltage"
 F7 "DP24mm" 20 -340 39 H I L CNN "Feeder Width"
 F8 "WE" 100 -500 60 H I C CNN "manf"
 F9 "865060553006" 350 -600 60 H I C CNN "manf#"
+F10 "SMT" 510 570 60 H V C CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -238,6 +239,7 @@ F6 "63V" 70 -120 39 H V C CNN "Voltage"
 F7 "24mm" 20 -340 39 H I L CNN "Feeder Width"
 F8 "Panasonic" 0 -550 60 H I C CNN "manf"
 F9 "EEE-FK1J101P" 0 -500 60 H I C CNN "manf#"
+F10 "SMT" 510 570 60 H V C CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -430,7 +432,7 @@ ENDDEF
 DEF ~10R#0805 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "10R#0805" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_0805" 10 -510 60 H I L CNN
+F2 "R_0805" 10 -510 60 H I L CNN
 F3 "" 1100 -700 60 H I C CNN
 F4 "10352705" 10 -260 60 H I L CNN "D&R"
 F5 "10R" 0 0 39 V V C CNN "Component Value"
@@ -448,7 +450,7 @@ ENDDEF
 DEF ~10R#1206 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "10R#1206" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_1206" 10 -510 60 H I L CNN
+F2 "R_1206" 10 -510 60 H I L CNN
 F3 "http://www.farnell.com/datasheets/1786672.pdf" 1100 -700 60 H I C CNN
 F4 "10352519" 10 -260 60 H I L CNN "D&R"
 F5 "10R" 0 0 39 V V C CNN "Component Value"
@@ -466,7 +468,7 @@ ENDDEF
 DEF ~10R#2512 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "10R#2512" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_2512" 10 -510 60 H I L CNN
+F2 "R_2512" 10 -510 60 H I L CNN
 F3 "http://www.farnell.com/datasheets/1786672.pdf" 1100 -700 60 H I C CNN
 F4 "10353893" 10 -260 60 H I L CNN "D&R"
 F5 "10R" 0 0 39 V V C CNN "Component Value"
@@ -735,6 +737,7 @@ F6 "63V" 70 -120 39 H V C CNN "Voltage"
 F7 "24mm" 20 -340 39 H I L CNN "Feeder Width"
 F8 "Panasonic" 0 -550 60 H I C CNN "manf"
 F9 "EEVFK1J151Q" 0 -500 60 H I C CNN "manf#"
+F10 "SMT" 510 570 60 H V C CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -780,7 +783,7 @@ F2 "D&R_Passive:Choke_SMD_WE-PD_1050" 420 -300 50 H I C CNN
 F3 "" 0 100 50 H V C CNN
 F4 "1095****" 0 -430 39 H I L CNN "D&R"
 F5 "24mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "15uH" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "7447714150" 0 -600 60 H I C CNN "manf#"
@@ -871,7 +874,7 @@ ENDDEF
 DEF ~1K#1206 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "1K#1206" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_1206" 10 -510 60 H I L CNN
+F2 "R_1206" 10 -510 60 H I L CNN
 F3 "" 90 -10 60 V V C CNN
 F4 "10353904" 10 -260 60 H I L CNN "D&R"
 F5 "1K" 0 0 39 V V C CNN "Component Value"
@@ -983,7 +986,7 @@ F2 "D&R_Passive:Choke_SMD_WE-LQS_6045" 420 -300 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/74404064102.pdf" 0 -800 50 H I C CNN
 F4 "10950049" 0 -430 39 H I L CNN "D&R"
 F5 "16mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "1mH" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "74404064102" 0 -600 60 H I C CNN "manf#"
@@ -1031,6 +1034,7 @@ F5 "8mm" 10 -350 60 H I L CNN "Feeder Width"
 F6 "1nF" 50 -70 39 H V L CNN "Component Value"
 F7 "50V" 50 -130 39 H V L CNN "Voltage"
 F8 "NP0" 80 -500 60 H I C CNN "Dielectric"
+F9 "SMT" 510 570 60 H V C CNN "Assembly Option"
 DRAW
 P 2 0 1 12 -60 -20 60 -20 N
 P 2 0 1 12 60 20 -60 20 N
@@ -1044,7 +1048,7 @@ ENDDEF
 DEF ~1R#2512 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "1R#2512" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_2512" 10 -510 60 H I L CNN
+F2 "R_2512" 10 -510 60 H I L CNN
 F3 "http://www.farnell.com/datasheets/1786672.pdf" 1100 -700 60 H I C CNN
 F4 "1035****" 10 -260 60 H I L CNN "D&R"
 F5 "1R" 0 0 39 V V C CNN "Component Value"
@@ -1160,7 +1164,7 @@ ENDDEF
 DEF ~20K#1206 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "20K#1206" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_1206" 10 -510 60 H I L CNN
+F2 "R_1206" 10 -510 60 H I L CNN
 F3 "http://www.farnell.com/datasheets/1849611.pdf" 1150 -600 60 H I C CNN
 F4 "10353856" 10 -260 60 H I L CNN "D&R"
 F5 "20K" 0 0 39 V V C CNN "Component Value"
@@ -1168,6 +1172,7 @@ F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
 F7 "Multicomp" 250 -800 60 H I C CNN "manf"
 F8 "MCWR12X2002FTL" 450 -700 60 H I C CNN "manf#"
 F9 "0.2W" 150 -900 60 H I C CNN "Power"
+F10 "SMT" 510 570 60 H V C CNN "Assembly Option"
 DRAW
 S -40 100 40 -100 0 1 8 N
 X 1 1 0 150 50 D 50 50 1 1 I
@@ -1270,7 +1275,7 @@ F4 "10400376" 20 -290 39 H I L CNN "D&R"
 F5 "220uF" 30 -70 39 H V L CNN "Component Value"
 F6 "6V3" 30 -120 39 H V L CNN "Voltage"
 F7 "16mm" 20 -340 39 H I L CNN "Feeder Width"
-F8 "SMD" 20 -460 39 H I L CNN "Assembly Option"
+F8 "SMT" 20 -460 39 H I L CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -1298,7 +1303,7 @@ F2 "D&R_Passive:Choke_SMD_WE-PD_1050" 420 -300 50 H I C CNN
 F3 "" 0 100 50 H V C CNN
 F4 "1095****" 0 -430 39 H I L CNN "D&R"
 F5 "24mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "220uH" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "7447714221" 0 -600 60 H I C CNN "manf#"
@@ -1321,7 +1326,7 @@ F2 "D&R_Passive:Type_L" 420 -300 50 H I C CNN
 F3 "http://katalog.we-online.de/pbs/datasheet/74456222.pdf" 0 -800 50 H I C CNN
 F4 "10950048" 0 -430 39 H I L CNN "D&R"
 F5 "24mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "220uH" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "74456222" 0 -600 60 H I C CNN "manf#"
@@ -1620,23 +1625,6 @@ X 3 3 200 0 87 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 330#0603
-#
-DEF ~330#0603 R 0 40 N N 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "330#0603" 10 -350 60 H I L CNN
-F2 "R_0603" 10 -510 60 H I L CNN
-F3 "" 90 -10 60 V V C CNN
-F4 "1035****" 10 -260 60 H I L CNN "D&R"
-F5 "330" 0 0 39 V V C CNN "Component Value"
-F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
-DRAW
-S -40 100 40 -100 0 1 8 N
-X 1 1 0 150 50 D 50 50 1 1 I
-X 2 2 0 -150 50 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # 330K#0603
 #
 DEF ~330K#0603 R 0 40 N N 1 F N
@@ -1666,11 +1654,30 @@ F4 "10402236" 10 -190 60 H I L CNN "D&R"
 F5 "8mm" 10 -350 60 H I L CNN "Feeder Width"
 F6 "330pF" 50 -70 39 H V L CNN "Component Value"
 F7 "50V" 50 -130 39 H V L CNN "Voltage"
+F8 "SMT" 510 570 60 H V C CNN "Assembly Option"
 DRAW
 P 2 0 1 12 -60 -20 60 -20 N
 P 2 0 1 12 60 20 -60 20 N
 X 1 1 0 100 75 D 50 50 1 1 I
 X 2 2 0 -100 75 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 330R#0603
+#
+DEF ~330R#0603 R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "330R#0603" 10 -350 60 H I L CNN
+F2 "R_0603" 10 -510 60 H I L CNN
+F3 "" 90 -10 60 V V C CNN
+F4 "10352523" 10 -260 60 H I L CNN "D&R"
+F5 "330R" 0 0 39 V V C CNN "Component Value"
+F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
+F7 "SMT" 510 570 60 H V C CNN "Assembly Option"
+DRAW
+S -40 100 40 -100 0 1 8 N
+X 1 1 0 150 50 D 50 50 1 1 I
+X 2 2 0 -150 50 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1725,6 +1732,7 @@ F6 "25V" 70 -120 39 H V C CNN "Voltage"
 F7 "16mm" 20 -340 39 H I L CNN "Feeder Width"
 F8 "WE" 0 -550 60 H I C CNN "manf"
 F9 "865060443003" 0 -500 60 H I C CNN "manf#"
+F10 "SMT" 510 570 60 H V C CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -1740,23 +1748,6 @@ P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
 X ~ 1 0 100 73 D 40 40 1 1 P
 X ~ 2 0 -100 73 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 374#0603
-#
-DEF ~374#0603 R 0 40 N N 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "374#0603" 10 -350 60 H I L CNN
-F2 "R_0603" 10 -510 60 H I L CNN
-F3 "" 90 -10 60 V V C CNN
-F4 "10353819" 10 -260 60 H I L CNN "D&R"
-F5 "374R" 0 0 39 V V C CNN "Component Value"
-F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
-DRAW
-S -40 100 40 -100 0 1 8 N
-X 1 1 0 150 50 D 50 50 1 1 I
-X 2 2 0 -150 50 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1970,7 +1961,7 @@ ENDDEF
 DEF ~470R#0805 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "470R#0805" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_0805" 10 -510 60 H I L CNN
+F2 "R_0805" 10 -510 60 H I L CNN
 F3 "" 1100 -700 60 H I C CNN
 F4 "10352725" 10 -260 60 H I L CNN "D&R"
 F5 "470R" 0 0 39 V V C CNN "Component Value"
@@ -2024,7 +2015,7 @@ F2 "D&R_Passive:Choke_SMD_WE-PD2_7850" 420 -300 50 H I C CNN
 F3 "" 0 100 50 H V C CNN
 F4 "1095****" 0 -430 39 H I L CNN "D&R"
 F5 "16mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "470uH" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "744775247" 0 -600 60 H I C CNN "manf#"
@@ -2099,7 +2090,7 @@ ENDDEF
 DEF ~47R#0805 R 0 40 N N 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "47R#0805" 10 -350 60 H I L CNN
-F2 "Resistors_SMD:R_0805" 10 -510 60 H I L CNN
+F2 "R_0805" 10 -510 60 H I L CNN
 F3 "" 1100 -700 60 H I C CNN
 F4 "10352713" 10 -260 60 H I L CNN "D&R"
 F5 "47R" 0 0 39 V V C CNN "Component Value"
@@ -2141,7 +2132,7 @@ F2 "D&R_Passive:Choke-SMD-WE-PD_1280" 420 -300 50 H I C CNN
 F3 "" 0 100 50 H V C CNN
 F4 "10950043" 0 -430 39 H I L CNN "D&R"
 F5 "DP24mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "47uH 2.7A" -80 -60 39 H V L CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "744770147" 0 -600 60 H I C CNN "manf#"
@@ -2202,6 +2193,7 @@ F4 "10401275" 10 -190 60 H I L CNN "D&R"
 F5 "8mm" 10 -350 60 H I L CNN "Feeder Width"
 F6 "4,7nF" 50 -70 39 H V L CNN "Component Value"
 F7 "100V" 50 -130 39 H V L CNN "Voltage"
+F8 "SMT" 510 570 60 H V C CNN "Assembly Option"
 DRAW
 P 2 0 1 12 -60 -20 60 -20 N
 P 2 0 1 12 60 20 -60 20 N
@@ -2223,8 +2215,7 @@ F6 "63V" 70 -120 39 H V C CNN "Voltage"
 F7 "12mm" 20 -340 39 H I L CNN "Feeder Width"
 F8 "WE" 0 -650 60 H I C CNN "manf"
 F9 "865080742009" 0 -550 60 H I C CNN "manf#"
-F10 "SMT" 710 770 60 H V C CNN "Asasembly Option"
-F11 "SMT" 810 870 60 H V C CNN "Assembly Option"
+F10 "SMT" 710 770 60 H V C CNN "Assembly Option"
 $FPLIST
  CP*
  Elko*
@@ -2292,7 +2283,7 @@ F2 "D&R_Passive:Choke_SMD_WE-TPC_5828" 420 -300 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/7440530047.pdf" 0 -200 50 H I C CNN
 F4 "10950033" 0 -430 39 H I L CNN "D&R"
 F5 "16mm" 10 -540 39 H I L CNN "Feeder Width"
-F6 "SMD" 0 -490 39 H I L CNN "Assembly Option"
+F6 "SMT" 0 -490 39 H I L CNN "Assembly Option"
 F7 "4.7uH 2.4A" 0 -50 39 H V C CNN "Short Description"
 F8 "WE" 0 -700 60 H I C CNN "manf"
 F9 "7440530047" 0 -600 60 H I C CNN "manf#"
@@ -2409,7 +2400,7 @@ ENDDEF
 DEF ~60R-100MHZ_3A#0603 L 0 0 N N 1 F N
 F0 "L" -50 90 50 H V C CNN
 F1 "60R-100MHZ_3A#0603" 0 -370 50 H I L CNN
-F2 "Resistors_SMD:R_0603" 420 -300 50 H I C CNN
+F2 "R_0603" 420 -300 50 H I C CNN
 F3 "" 0 100 50 H V C CNN
 F4 "10950022" 0 -430 39 H I L CNN "D&R"
 F5 "8mm" 10 -540 39 H I L CNN "Feeder Width"
@@ -2449,6 +2440,24 @@ X 2 2 0 -100 75 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 68R#0603
+#
+DEF ~68R#0603 R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "68R#0603" 10 -350 60 H I L CNN
+F2 "R_0603" 10 -510 60 H I L CNN
+F3 "" 90 -10 60 V V C CNN
+F4 "10353834" 10 -260 60 H I L CNN "D&R"
+F5 "68R" 0 0 39 V V C CNN "Component Value"
+F6 "8mm" 10 -430 60 H I L CNN "Feeder Width"
+F7 "SMT" 10 -600 60 H I L CNN "Assembly Option"
+DRAW
+S -40 100 40 -100 0 1 8 N
+X 1 1 0 150 50 D 50 50 1 1 I
+X 2 2 0 -150 50 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # 6K81#0603
 #
 DEF ~6K81#0603 R 0 40 N N 1 F N
@@ -2478,6 +2487,7 @@ F4 "10400409" 10 -190 60 H I L CNN "D&R"
 F5 "8mm" 10 -350 60 H I L CNN "Feeder Width"
 F6 "6.8nF" 50 -70 39 H V L CNN "Component Value"
 F7 "100V" 50 -130 39 H V L CNN "Voltage"
+F8 "SMT" 510 570 60 H V C CNN "Assembly Option"
 DRAW
 P 2 0 1 12 -60 -20 60 -20 N
 P 2 0 1 12 60 20 -60 20 N
@@ -2700,6 +2710,31 @@ X ~ 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PF1A5_6V#1210
+#
+DEF ~PF1A5_6V#1210 F 0 10 N N 1 F N
+F0 "F" -40 60 50 H V L CNN
+F1 "PF1A5_6V#1210" 0 -170 50 H I L CNN
+F2 "Resistors_SMD:R_1210" 10 -250 50 H I C CNN
+F3 "http://www.mouser.com/ds/2/418/NG_CS_CLP00010_A_CLP00010-735728.pdf" 10 -320 50 H I C CNN
+F4 "Raychem" -10 -390 31 H I C CNN "manf"
+F5 "MICROSMD150F-2" 0 -450 31 H I C CNN "manf#"
+F6 "SMT" 10 -510 31 H I C CNN "Assembly Option"
+F7 "10990642" 20 -550 31 H I C CNN "D&R"
+F8 "6V" 0 -600 31 H I C CNN "Voltage"
+F9 "1.5A" 0 -50 31 H V C CNN "Current"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 40 40 1 1 P
+X ~ 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R
 #
 DEF R R 0 0 N Y 1 F N
@@ -2726,7 +2761,7 @@ F1 "XTAL12.0MHZ#2.5X3.2" 0 -150 50 H I L CNN
 F2 "Crystals:crystal_FA238-TSX3225" 0 -250 50 H I L CNN
 F3 "" 0 100 50 H V C CNN
 F4 "10250374" 0 -350 50 H I L CNN "D&R"
-F5 "SMD" 0 -450 50 H I L CNN "Assembly Option"
+F5 "SMT" 0 -450 50 H I L CNN "Assembly Option"
 F6 "12mm" 0 -550 50 H I L CNN "Feeder Width"
 F7 "XTAL 12.0Mhz" -200 200 50 H V L CNN "Short Description"
 $FPLIST
@@ -2771,9 +2806,9 @@ F0 "Y" 0 100 50 H V C CNN
 F1 "XTAL25.0MHZ#2.5X3.2" 0 -150 50 H I L CNN
 F2 "Crystals:crystal_FA238-TSX3225" 0 -250 50 H I L CNN
 F3 "" 0 100 50 H V C CNN
-F4 "1025005**" 0 -350 50 H I L CNN "D&R"
-F5 "SMD" 0 -450 50 H I L CNN "Assembly Option"
-F6 "12mm" 0 -550 50 H I L CNN "Feeder Width"
+F4 "10250546" 0 -350 50 H I L CNN "D&R"
+F5 "SMT" 0 -450 50 H I L CNN "Assembly Option"
+F6 "8mm" 0 -550 50 H I L CNN "Feeder Width"
 F7 "XTAL 25.0Mhz" -200 200 50 H V L CNN "Short Description"
 $FPLIST
  Crystal_
