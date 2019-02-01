@@ -24,6 +24,10 @@ $CMP 10U-ALU_16V#CASE_B
 D Polarised capacitor
 $ENDCMP
 #
+$CMP 10U-ALU_63V#CASE_E
+D Polarised capacitor
+$ENDCMP
+#
 $CMP 10UH_1A5#5828_L
 D WE-TPC SMD Shielded Tiny Power Inductor
 $ENDCMP
