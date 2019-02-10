@@ -1,11 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AZ850P1-x
+D Panasonic miniature DPDT relay
+K Miniature Polarised Relay Dual Pole Monostable
+$ENDCMP
+#
 $CMP Hole_3.5mm
 D Connector 01x02
 $ENDCMP
 #
 $CMP Platstaf_10x25
 D Connector 01x02
+$ENDCMP
+#
+$CMP TQ2
+D American Zettler, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.azettler.com/pdfs/az850.pdf
 $ENDCMP
 #
 #End Doc Library
