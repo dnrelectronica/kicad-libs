@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AF125#TO72
+D 25V 10mA LN HF pnp transistor
+K AF125 AF106
+$ENDCMP
+#
 #End Doc Library

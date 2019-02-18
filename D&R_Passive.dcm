@@ -105,4 +105,9 @@ D Two pin SMD crystal 25Mhz
 K Quartz, Resonator, Ceramic, Filter
 $ENDCMP
 #
+$CMP Xtal16.384MHz#5.0x3.2
+D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
+K quartz crystal
+$ENDCMP
+#
 #End Doc Library
