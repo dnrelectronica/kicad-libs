@@ -94,6 +94,16 @@ D Resistor
 K R DEV
 $ENDCMP
 #
+$CMP Transformer_1P_2S
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_LM-NP-1003
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+$ENDCMP
+#
 $CMP XTAL12.0MHZ#2.5X3.2
 D Two pin SMD crystal 12Mhz
 K Quartz, Resonator, Ceramic, Filter

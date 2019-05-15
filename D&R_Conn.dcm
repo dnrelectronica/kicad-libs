@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_01x01
+D Generic connector, single row, 01x01
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03
+K connector
+F ~
+$ENDCMP
+#
 $CMP HEADER3P
 K Header3p Jumper3p
 $ENDCMP
