@@ -12,6 +12,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP HEADER2P
+K Header3p Jumper3p
+$ENDCMP
+#
 $CMP HEADER3P
 K Header3p Jumper3p
 $ENDCMP

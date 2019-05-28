@@ -137,7 +137,7 @@ F5 "Fairchild/ON" 25 -1100 60 H I C CNN "manf"
 F6 "74HCT595ADR2G" 50 -1200 60 H I C CNN "manf#"
 F7 "10250559" 0 -1575 60 H I C CNN "D&R"
 F8 "74HCT595" 0 -660 60 H V C CNN "Short Description"
-F9 "12mm" 25 -1675 60 H I C CNN "Feeder Width"
+F9 "16mm" 25 -1675 60 H I C CNN "Feeder Width"
 F10 "Nexperia" -75 -925 60 H I C CNN "manf2"
 F11 "74HCT595D" 25 -1025 60 H I C CNN "manf2#"
 DRAW
