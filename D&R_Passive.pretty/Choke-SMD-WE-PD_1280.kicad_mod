@@ -1,4 +1,4 @@
-(module Choke-SMD-WE-PD_1280 (layer F.Cu) (tedit 5707A945)
+(module Choke-SMD-WE-PD_1280 (layer F.Cu) (tedit 5CF1480C)
   (descr "Choke, Drossel, WE-PD Typ LS, Wuerth, SMD,")
   (tags "Choke, Drossel, WE-PD Typ LS, Wuerth, SMD,")
   (attr smd)
@@ -33,6 +33,11 @@
   (pad 1 smd rect (at -4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
   (model D&R.3dshapes/WE-PD_1280.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

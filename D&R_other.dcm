@@ -41,10 +41,4 @@ K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
 $ENDCMP
 #
-$CMP Raspberry_Pi_2_3
-D expansion header for Raspberry Pi 2 & 3
-K raspberrypi gpio
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
-$ENDCMP
-#
 #End Doc Library
