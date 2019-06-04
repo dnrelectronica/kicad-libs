@@ -1,4 +1,4 @@
-(module c_elec_12.5x13 (layer F.Cu) (tedit 56E7D0C1)
+(module c_elec_12.5x13 (layer F.Cu) (tedit 5CF147BD)
   (descr "SMT capacitor, aluminium electrolytic, 10x10")
   (attr smd)
   (fp_text reference REF** (at 0 -7.7) (layer F.SilkS)
@@ -31,9 +31,4 @@
   (fp_line (start 6.75 5.2) (end 5.2 6.75) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at 4.7 0) (size 5 2.4003) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4.7 0) (size 5 2.4003) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD.3dshapes/c_elec_10x10.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
