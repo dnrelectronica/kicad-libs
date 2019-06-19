@@ -262,7 +262,7 @@ F2 "D&R_Conn:LPA0860-35-23" 50 150 60 H I C CNN
 F3 "" 0 -980 60 H I C CNN
 F4 "10600536" 0 -920 60 H I C CNN "D&R"
 F5 "Lih Sheng" 0 -840 60 H I C CNN "manf"
-F6 "LPA860-35-23" 0 -760 60 H I C CNN "manf#"
+F6 "LPA0860-35-23" 0 -760 60 H I C CNN "manf#"
 F7 "Male" 0 -680 60 H I C CNN "Gender"
 F8 "THT" -5 -585 60 H I C CNN "Assembly Option"
 $FPLIST
