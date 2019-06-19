@@ -29,7 +29,7 @@ ENDDEF
 #
 # 2P_ScrewTerminal
 #
-DEF 2P_ScrewTerminal P 0 40 Y N 1 F N
+DEF ~2P_ScrewTerminal P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "2P_ScrewTerminal" 0 -750 50 H I C CNN
 F2 "D&R_Conn:2P_TB" 10 270 50 H I C CNN
@@ -2127,7 +2127,7 @@ ENDDEF
 #
 # Jack-LJ0697H-5
 #
-DEF Jack-LJ0697H-5 J 0 0 N Y 1 F N
+DEF ~Jack-LJ0697H-5 J 0 0 N Y 1 F N
 F0 "J" -460 0 60 H V C CNN
 F1 "Jack-LJ0697H-5" 0 -300 60 H I C CNN
 F2 "D&R_Conn:LJ0697H-5" 0 -400 60 H I C CNN
@@ -2333,15 +2333,32 @@ X Pin_9 9 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Phoenix_MSTBA_2,5_2-G-5,08
+#
+DEF Phoenix_MSTBA_2,5_2-G-5,08 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Phoenix_MSTBA_2,5_2-G-5,08" 0 -200 50 H V C CNN
+F2 "D&R_Conn:PhoenixContact_MSTBA-G_02x5.08mm_Angled" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Phoenix_MSTBA_2,5_5-G-5,08
 #
 DEF Phoenix_MSTBA_2,5_5-G-5,08 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "Phoenix_MSTBA_2,5_5-G-5,08" 0 -300 50 H V C CNN
-F2 "D&R_Conn:PhoenixContact_MSTBA-G_05x5.08mm_Angled" 0 400 50 H I C CNN
+F2 "D&R_Conn:PhoenixContact_MSTBA-G_05x5.08mm_Angled" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Phoenix" 300 150 50 H I C CNN "manf"
-F5 "1757271" 300 50 50 H I C CNN "manf#"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
