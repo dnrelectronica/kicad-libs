@@ -1,4 +1,4 @@
-(module PEC11R_Encoder (layer F.Cu) (tedit 57E25C59)
+(module PEC11R_Encoder (layer F.Cu) (tedit 5D5D17D4)
   (fp_text reference REF** (at 0 4.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,7 +17,7 @@
   (pad C thru_hole circle (at 0 7.5) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -5.8 0) (size 4 4) (drill 2.7) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 5.8 0) (size 4 4) (drill 2.7) (layers *.Cu *.Mask))
-  (model V:/08-KiCad/02-Library/D&R.3dshapes/PEC11R-4025F-SXXXX.wrl
+  (model ${KISYS3DMOD}/PEC11R-4025F-SXXXX.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module TQFP-44_10x10mm_Pitch0.8mm (layer F.Cu) (tedit 58CC9A48)
+(module TQFP-44_10x10mm_Pitch0.8mm (layer F.Cu) (tedit 5D5BFFFA)
   (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFP 0.8")
   (attr smd)
@@ -74,6 +74,11 @@
   (pad 43 smd rect (at -3.2 -5.7 90) (size 1.5 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 44 smd rect (at -4 -5.7 90) (size 1.5 0.55) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Housings_QFP.3dshapes/TQFP-44_10x10mm_Pitch0.8mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/TQFP-44_10x10mm_P0.8mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

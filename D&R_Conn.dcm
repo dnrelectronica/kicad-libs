@@ -1,8 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Phoenix_MSTBA_2,5_2-G-5,08
-K connector
-F ~
+$CMP CONN_3011-02X17
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
 $ENDCMP
 #
 #End Doc Library

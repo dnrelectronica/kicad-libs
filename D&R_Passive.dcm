@@ -1,127 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 100U-ALU_25V#CASE_D8
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 100U-ALU_35V#CASE_F
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 100U-ALU_63V#CASE_G
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 100U-ALU_6V3#CASE_C
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 10K0X4#0612
-D 10K x4 Resistor Array
-$ENDCMP
-#
-$CMP 10U-ALU_16V#CASE_B
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 10U-ALU_63V#CASE_E
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 10U-ALU_63V#CASE_F6.4
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 10UH_1A5#5828_L
-D WE-TPC SMD Shielded Tiny Power Inductor
-$ENDCMP
-#
-$CMP 150U-ALU_63V#CASE_D
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 1N-X7R_2000V#1206
-D 1nF 2kV High Voltage Capacitor VJ1206Y series
-$ENDCMP
-#
-$CMP 220P4X#0612
-D 4 x 220pF capacitor Array
-$ENDCMP
-#
-$CMP 220U-ALU_6V3#CASE_D
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 22UH_3A#SRU1063
-D WE-TPC SMD Shielded Tiny Power Inductor
+$CMP 10R#1206
+F http://www.farnell.com/datasheets/1786672.pdf
 $ENDCMP
 #
 $CMP 3296Z-1-203
-D Trim potmeter 20K hor adj srew
-K R
-$ENDCMP
-#
-$CMP 33U-ALU_25V#CASE_D
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 470U-TANT_6V3#7343
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 4U7-ALU_63V#CASE_C
-D Polarised capacitor
-$ENDCMP
-#
-$CMP 4U7H_2A4#5828_L
-D WE-TPC SMD Shielded Tiny Power Inductor
-$ENDCMP
-#
-$CMP 560RX4#0612
-D 560R x4 Resistor Array
+F https://www.bourns.com/pdfs/3296.pdf
 $ENDCMP
 #
 $CMP 8U2H_1A#1812_L
-D Fixed Inductors WE-LQ 1812 8.2uH 1A .25Ohm
+F http://katalog.we-online.de/pbs/datasheet/744045008.pdf
 $ENDCMP
 #
-$CMP C_Small
-D Unpolarized capacitor
+$CMP PF0A3_60V#2920
+D Polyfuse 60V 300mA
 $ENDCMP
 #
-$CMP R
-D Resistor
-K R DEV
-$ENDCMP
-#
-$CMP Transformer_1P_2S
-D Transformer, single primary, dual secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP Transformer_LM-NP-1003
-D Transformer, single primary, dual secondary
-K transformer coil magnet
-$ENDCMP
-#
-$CMP XTAL12.0MHZ#2.5X3.2
-D Two pin SMD crystal 12Mhz
-K Quartz, Resonator, Ceramic, Filter
-$ENDCMP
-#
-$CMP XTAL24.0MHZ#2.5X3.2
-D Two pin crystal
-K Quartz, Resonator, Ceramic, Filter
-$ENDCMP
-#
-$CMP XTAL25.0MHZ#2.5X3.2
-D Two pin SMD crystal 25Mhz
-K Quartz, Resonator, Ceramic, Filter
-$ENDCMP
-#
-$CMP Xtal16.384MHz#5.0x3.2
-D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
-K quartz crystal
+$CMP PF0A75_24V#1812
+D Polyfuse 24V 750mA
 $ENDCMP
 #
 #End Doc Library

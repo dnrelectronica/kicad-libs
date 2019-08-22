@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PF0A3_60V#2920
+D Polyfuse 60V 300mA
+$ENDCMP
+#
+$CMP PF0A75_24V#1812
+D Polyfuse 24V 750mA
+$ENDCMP
+#
+$CMP PF1A5_33V#2920
+D Polyfuse 33V 1,5A
+$ENDCMP
+#
+$CMP PF1A5_6V#1210
+D Polyfuse 6V 1,5A
+$ENDCMP
+#
+#End Doc Library

@@ -1,21 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATtiny13-20SSU
-D 20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, SOIC-8
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf
-$ENDCMP
-#
-$CMP ATtiny13A-SSU
-D 20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, SOIC-8
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf
-$ENDCMP
-#
-$CMP ATtiny13V-10SSU
-D 10MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, SOIC-8
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf
-$ENDCMP
-#
 #End Doc Library

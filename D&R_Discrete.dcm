@@ -1,14 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AF125#TO72
-D 25V 10mA LN HF pnp transistor
-K AF125 AF106
-$ENDCMP
-#
-$CMP IRF540NS#TO-263-2
-D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
-K N-Channel Power MOSFET
-F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
+$CMP BAV99LT1#SOT23
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
 #
 #End Doc Library

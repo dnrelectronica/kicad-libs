@@ -1,0 +1,92 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PF0A3_60V#2920
+#
+DEF ~PF0A3_60V#2920 F 0 10 N N 1 F N
+F0 "F" -40 60 50 H V L CNN
+F1 "PF0A3_60V#2920" 0 -170 50 H I L CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" 10 -250 50 H I C CNN
+F3 "http://www.farnell.com/datasheets/578244.pdf" 10 -320 50 H I C CNN
+F4 "Littlefuse" -10 -390 31 H I C CNN "manf"
+F5 "2920L030" 0 -450 31 H I C CNN "manf#"
+F6 "SMT" 10 -510 31 H I C CNN "Assembly Option"
+F7 "10990645" 20 -550 31 H I C CNN "D&R"
+F8 "60V" 0 -600 31 H I C CNN "Voltage"
+F9 "0.3A" 0 -50 31 H V C CNN "Current"
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 40 40 1 1 P
+X ~ 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PF0A75_24V#1812
+#
+DEF ~PF0A75_24V#1812 F 0 10 N N 1 F N
+F0 "F" -40 60 50 H V L CNN
+F1 "PF0A75_24V#1812" 0 -170 50 H I L CNN
+F2 "Resistors_SMD:R_1812" 10 -250 50 H I C CNN
+F3 "http://www.farnell.com/datasheets/578244.pdf" 10 -320 50 H I C CNN
+F4 "Littlefuse" -10 -390 31 H I C CNN "manf"
+F5 "2920L030" 0 -450 31 H I C CNN "manf#"
+F6 "SMT" 10 -510 31 H I C CNN "Assembly Option"
+F7 "10990641" 20 -550 31 H I C CNN "D&R"
+F8 "24V" 0 -600 31 H I C CNN "Voltage"
+F9 "0.75A" 0 -50 31 H V C CNN "Current"
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 40 40 1 1 P
+X ~ 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PF1A5_33V#2920
+#
+DEF ~PF1A5_33V#2920 F 0 10 N N 1 F N
+F0 "F" -40 60 50 H V L CNN
+F1 "PF1A5_33V#2920" 0 -170 50 H I L CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" 10 -250 50 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf" 10 -320 50 H I C CNN
+F4 "Littlefuse" -10 -390 31 H I C CNN "manf"
+F5 "2920L150" 0 -450 31 H I C CNN "manf#"
+F6 "SMT" 10 -510 31 H I C CNN "Assembly Option"
+F7 "10990646" 20 -550 31 H I C CNN "D&R"
+F8 "33V" 0 -600 31 H I C CNN "Voltage"
+F9 "1.5A" 0 -50 31 H V C CNN "Current"
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 40 40 1 1 P
+X ~ 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PF1A5_6V#1210
+#
+DEF ~PF1A5_6V#1210 F 0 10 N N 1 F N
+F0 "F" -40 60 50 H V L CNN
+F1 "PF1A5_6V#1210" 0 -170 50 H I L CNN
+F2 "Resistors_SMD:R_1210" 10 -250 50 H I C CNN
+F3 "http://www.mouser.com/ds/2/418/NG_CS_CLP00010_A_CLP00010-735728.pdf" 10 -320 50 H I C CNN
+F4 "Raychem" -10 -390 31 H I C CNN "manf"
+F5 "MICROSMD150F-2" 0 -450 31 H I C CNN "manf#"
+F6 "SMT" 10 -510 31 H I C CNN "Assembly Option"
+F7 "10990642" 20 -550 31 H I C CNN "D&R"
+F8 "6V" 0 -600 31 H I C CNN "Voltage"
+F9 "1.5A" 0 -50 31 H V C CNN "Current"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 40 40 1 1 P
+X ~ 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,4 +1,4 @@
-(module OLED128x64_1xMountingHolesBottomLeft (layer F.Cu) (tedit 5BD0CEEC)
+(module OLED128x64_1xMountingHolesBottomLeft (layer F.Cu) (tedit 5D5E6626)
   (fp_text reference REF** (at 10.2 -2.74) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -26,4 +26,14 @@
   (pad 2 thru_hole circle (at -5.08 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -7.62 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at -11.65 24.3) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/PinSocket_1x07_P2.54mm_Vertical.step
+    (offset (xyz 7.62 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model ${KISYS3DMOD}/OLED128x64.step
+    (offset (xyz -13.64 -26.3 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

@@ -103,7 +103,7 @@ F3 "https://www.diodes.com/assets/Datasheets/ds13002.pdf" 0 -650 50 H I L CNN
 F4 "B160B" 0 100 50 H V C CNN "Short Description"
 F5 "10250510" 0 -250 50 H I L CNN "D&R"
 F6 "SMT" 0 -350 50 H I L CNN "Assembly Option"
-F7 "8mm" 0 -550 50 H I L CNN "Feeder Width"
+F7 "12mm" 0 -550 50 H I L CNN "Feeder Width"
 F8 "B160B-13-F" 10 -740 60 H I L CNN "manf#"
 F9 "Diodes" 10 -800 60 H I L CNN "manf"
 F10 "60V" 0 -950 60 H I C CNN "Voltage"
@@ -282,8 +282,8 @@ ENDDEF
 DEF BAV99LT1#SOT23 D 0 40 Y N 1 F N
 F0 "D" -225 250 50 H V C CNN
 F1 "BAV99LT1#SOT23" 0 -150 50 H I L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 0 -450 50 H I L CNN
-F3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" 0 -650 50 H I L CNN
+F2 "D&R_Discrete:SOT-23" 0 -450 50 H I L CNN
+F3 "" 0 -650 50 H I L CNN
 F4 "BAV99" -150 350 50 H V L CNN "Short Description"
 F5 "10250478" 0 -250 50 H I L CNN "D&R"
 F6 "SMT" 0 -350 50 H I L CNN "Assembly Option"
@@ -309,12 +309,41 @@ X KA 3 -200 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BZX84C5V1#SOT23
+#
+DEF BZX84C5V1#SOT23 D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "BZX84C5V1#SOT23" -50 -175 50 H I C CNN
+F2 "D&R_Discrete:SOT-23" 0 -550 50 H I C CNN
+F3 "" 0 90 50 H V C CNN
+F4 "1025xxxx" 0 -450 60 H I C CNN "D&R"
+F5 "NXP" 0 -650 60 H I C CNN "manf"
+F6 "BZX84C5V1-E3-08" 0 -350 60 H I C CNN "manf#"
+F7 "BZX84C5V1" 0 -100 60 H V C CNN "Component Value"
+F8 "SMT" 0 -250 60 H I C CNN "Assembly Option"
+F9 "8mm" 0 250 60 H I C CNN "Feeder Width"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BZX84C5V6#SOT23
 #
 DEF BZX84C5V6#SOT23 D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "BZX84C5V6#SOT23" 0 -90 50 H I C CNN
-F2 "Diodes_SMD:D_SOT-23_ANK" 0 -550 50 H I C CNN
+F2 "D&R_Discrete:SOT-23" 0 -550 50 H I C CNN
 F3 "" 0 90 50 H V C CNN
 F4 "10250191" 0 -450 60 H I C CNN "D&R"
 F5 "NXP" 0 -650 60 H I C CNN "manf"
@@ -343,7 +372,7 @@ ENDDEF
 DEF BZX84C6V8#SOT23 D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "BZX84C6V8#SOT23" 0 -90 50 H I C CNN
-F2 "Diodes_SMD:D_SOT-23_ANK" 0 -550 50 H I C CNN
+F2 "D&R_Discrete:SOT-23" 0 -550 50 H I C CNN
 F3 "" 0 90 50 H V C CNN
 F4 "10250197" 0 -450 60 H I C CNN "D&R"
 F5 "NXP" 0 -650 60 H I C CNN "manf"
@@ -465,6 +494,7 @@ F5 "10250480" 0 -500 60 H I C CNN "D&R"
 F6 "Kingbright" 0 -700 60 H I C CNN "manf"
 F7 "KP-2012SEC" 0 -600 60 H I C CNN "manf#"
 F8 "LED0805GRN" 0 -150 39 H V C CNN "Short Description"
+F9 "8mm" 600 700 60 H V C CNN "Feeder Width"
 $FPLIST
  LED-3MM
  LED-5MM
@@ -496,6 +526,7 @@ F5 "10250479" 0 -500 60 H I C CNN "D&R"
 F6 "Kingbright" 0 -700 60 H I C CNN "manf"
 F7 "KP-2012SEC" 0 -600 60 H I C CNN "manf#"
 F8 "LED0805RED" 0 -150 39 H V C CNN "Short Description"
+F9 "8mm" 600 700 60 H V C CNN "Feeder Width"
 $FPLIST
  LED-3MM
  LED-5MM
@@ -527,6 +558,7 @@ F5 "10250420" 0 -500 60 H I C CNN "D&R"
 F6 "sky" 0 -700 60 H I C CNN "manf"
 F7 "000" 0 -600 60 H I C CNN "manf#"
 F8 "LED3528RED" 0 -150 39 H V C CNN "Short Description"
+F9 "8mm" 600 700 60 H V C CNN "Feeder Width"
 $FPLIST
  LED-3MM
  LED-5MM

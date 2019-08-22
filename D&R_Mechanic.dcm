@@ -5,6 +5,10 @@ D Panasonic miniature DPDT relay
 K Miniature Polarised Relay Dual Pole Monostable
 $ENDCMP
 #
+$CMP Hole_2.1mm
+D Connector 01x02
+$ENDCMP
+#
 $CMP Hole_3.5mm
 D Connector 01x02
 $ENDCMP
