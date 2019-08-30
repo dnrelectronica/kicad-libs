@@ -1,4 +1,4 @@
-(module CP_Elec_5x5.3 (layer F.Cu) (tedit 58AA8A8F)
+(module CP_Elec_5x5.3 (layer F.Cu) (tedit 5D662C1A)
   (descr "SMT capacitor, aluminium electrolytic, 5x5.3")
   (attr smd)
   (fp_text reference REF** (at 0 3.92) (layer F.SilkS)
@@ -37,9 +37,9 @@
   (fp_line (start 3.95 2.74) (end -3.95 2.74) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -2.2 0 180) (size 3 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.2 0 180) (size 3 1.6) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD.3dshapes/CP_Elec_5x5.3.wrl
+  (model ${KISYS3DMOD}/CP_Elec_5x5.3.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )

@@ -1,4 +1,4 @@
-(module SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm (layer F.Cu) (tedit 5A65EC84)
+(module SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm (layer F.Cu) (tedit 5D5FAB53)
   (descr "8-Lead Thermally Enhanced Plastic Small Outline (SE) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "SOIC 1.27")
   (attr smd)
@@ -40,7 +40,7 @@
   (pad "" smd rect (at -0.5875 0.5875) (size 0.95 0.95) (layers F.Paste))
   (pad "" smd rect (at -0.5875 -0.5875) (size 0.95 0.95) (layers F.Paste))
   (pad "" smd rect (at 0.5875 -0.5875) (size 0.95 0.95) (layers F.Paste))
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.wrl
+  (model ${KISYS3DMOD}/SOIC-8_3.9x4.9mm_P1.27mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

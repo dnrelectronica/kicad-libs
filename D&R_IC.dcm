@@ -1,3 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BC808-50
+F http://www.nxp.com/documents/data_sheet/BC807_BC807W_BC327.pdf
+$ENDCMP
+#
+$CMP CS4270#TSSOP24
+F http://www.mouser.com/ds/2/76/CS4270_F1-39353.pdf
+$ENDCMP
+#
+$CMP LP2985A-50#SOT23-5
+F http://www.ti.com/lit/ds/symlink/lp2985a-50.pdf
+$ENDCMP
+#
+$CMP MAX809#SOT23
+F https://nl.mouser.com/datasheet/2/308/MAX809S-D-273965.pdf
+$ENDCMP
+#
+$CMP TLV1117LV33#SOT223
+F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
+$ENDCMP
+#
+$CMP XOSC24.576MHZ#SG5032
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en
+$ENDCMP
+#
 #End Doc Library

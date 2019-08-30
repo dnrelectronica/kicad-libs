@@ -1,4 +1,4 @@
-(module SOT-223 (layer F.Cu) (tedit 5D5D0D6F)
+(module SOT-223 (layer F.Cu) (tedit 5D5FBAA7)
   (descr "module CMS SOT223 4 pins")
   (tags "CMS SOT")
   (attr smd)

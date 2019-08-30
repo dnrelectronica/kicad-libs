@@ -1,4 +1,4 @@
-(module DFN-10-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5CDC0046)
+(module DFN-10-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5D664522)
   (descr "10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "DFN 0.5")
   (attr smd)
@@ -31,7 +31,7 @@
   (pad 10 smd rect (at 1.6 -1) (size 1 0.27) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at 0 0) (size 1.6 2.38) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.2))
-  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

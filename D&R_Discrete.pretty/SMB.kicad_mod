@@ -1,4 +1,4 @@
-(module SMB (layer F.Cu) (tedit 5BE977E0)
+(module SMB (layer F.Cu) (tedit 5D5FB97C)
   (descr "Diode SMB Standard")
   (tags "Diode SMB Standard")
   (attr smd)
@@ -34,9 +34,9 @@
   (fp_line (start 2.30124 -1.99898) (end 2.30124 -1.80086) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.14884 0) (size 2.49936 2.30124) (layers F.Cu F.Paste F.Mask))
-  (model Diodes_SMD.3dshapes/SMB_Standard.wrl
+  (model ${KISYS3DMOD}/D_SMB.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 180))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

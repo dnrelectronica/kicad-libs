@@ -1,4 +1,4 @@
-(module Relay_DPDT_Finder_40.52 (layer F.Cu) (tedit 5A5B3E92)
+(module Relay_DPDT_Finder_40.52 (layer F.Cu) (tedit 5D5FD825)
   (descr "Relay DPDT Finder 40.52, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf")
   (tags "Relay DPDT Finder 40.52 Pitch 5mm")
   (fp_text reference REF** (at 10 -3.6) (layer F.SilkS)
@@ -46,7 +46,7 @@
   (pad 12 thru_hole circle (at 15 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 21 thru_hole circle (at 20 7.5) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 25 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Relay_THT.3dshapes/Relay_DPDT_Finder_40.52.wrl
+  (model ${KISYS3DMOD}/Relay_DPDT_Finder_40.52.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

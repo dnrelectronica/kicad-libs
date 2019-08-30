@@ -1,4 +1,4 @@
-(module C_1206 (layer F.Cu) (tedit 5CF14684)
+(module C_1206 (layer F.Cu) (tedit 5D5FCC3B)
   (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 1206")
   (attr smd)
@@ -23,7 +23,7 @@
   (fp_line (start 2.5 1.05) (end -2.5 1.05) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.6 0) (size 1.5 1.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.6 0) (size 1.5 1.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step
+  (model ${KISYS3DMOD}/C_1206_3216Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

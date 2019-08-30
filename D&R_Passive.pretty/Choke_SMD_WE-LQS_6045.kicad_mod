@@ -1,4 +1,4 @@
-(module Choke_SMD_WE-LQS_6045 (layer F.Cu) (tedit 56EFCC5A)
+(module Choke_SMD_WE-LQS_6045 (layer F.Cu) (tedit 5D5FB1E2)
   (fp_text reference REF** (at 0 -4.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,9 +14,9 @@
   (fp_line (start 3.1 3.1) (end -3.1 3.1) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -2.3 0) (size 1.8 5.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.3 0) (size 1.8 5.7) (layers F.Cu F.Paste F.Mask))
-  (model D&R.3dshapes/WE-LQS_6045.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/WE-LQS-6045-rev1.stp
+    (offset (xyz 0 0 2.3))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

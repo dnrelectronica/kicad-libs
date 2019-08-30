@@ -1,4 +1,4 @@
-(module TO-263-2 (layer F.Cu) (tedit 5CED4E36)
+(module TO-263-2 (layer F.Cu) (tedit 5D5FBB1D)
   (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
   (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
   (attr smd)
@@ -42,7 +42,7 @@
   (pad 2 smd rect (at 3.375 0) (size 9.4 10.8) (layers F.Cu F.Mask))
   (pad 3 smd rect (at -5.775 2.54) (size 4.6 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5.775 -2.54) (size 4.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-263-2.wrl
+  (model ${KISYS3DMOD}/TO-263-2.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

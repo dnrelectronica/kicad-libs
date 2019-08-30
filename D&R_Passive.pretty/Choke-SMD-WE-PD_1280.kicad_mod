@@ -1,4 +1,4 @@
-(module Choke-SMD-WE-PD_1280 (layer F.Cu) (tedit 5CF1480C)
+(module Choke-SMD-WE-PD_1280 (layer F.Cu) (tedit 5D5FB514)
   (descr "Choke, Drossel, WE-PD Typ LS, Wuerth, SMD,")
   (tags "Choke, Drossel, WE-PD Typ LS, Wuerth, SMD,")
   (attr smd)
@@ -17,7 +17,7 @@
   (fp_circle (center 0 0) (end 0.89916 0) (layer F.Adhes) (width 0.381))
   (fp_circle (center 0 0) (end 0.55118 0) (layer F.Adhes) (width 0.381))
   (fp_circle (center 0 0) (end 0.14986 0.14986) (layer F.Adhes) (width 0.381))
-  (fp_circle (center -2.10058 2.99974) (end -1.80086 3.2512) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -2.10058 -3.048) (end -1.80086 -2.79654) (layer F.SilkS) (width 0.15))
   (fp_line (start 4.89966 3.29946) (end 5.00126 3.40106) (layer F.SilkS) (width 0.15))
   (fp_arc (start -4 4.013193) (end -4.9 3.313193) (angle -186.9) (layer F.SilkS) (width 0.3))
   (fp_arc (start -4 -4) (end -4.9 -3.3) (angle 186.9112271) (layer F.SilkS) (width 0.3))
@@ -32,14 +32,9 @@
   (fp_arc (start -5.5 -5.5) (end -6.2 -5.5) (angle 90) (layer F.SilkS) (width 0.3))
   (pad 1 smd rect (at -4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
-  (model D&R.3dshapes/WE-PD_1280.wrl
+  (model ${KISYS3DMOD}/WE-PD-1280-rev1.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
