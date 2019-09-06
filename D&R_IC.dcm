@@ -4,6 +4,10 @@ $CMP BC808-50
 F http://www.nxp.com/documents/data_sheet/BC807_BC807W_BC327.pdf
 $ENDCMP
 #
+$CMP BM64
+F http://ww1.microchip.com/downloads/en/DeviceDoc/BM62-64-Bluetooth-Stereo-Audio-Module-Data-Sheet-DS60001403E.pdf
+$ENDCMP
+#
 $CMP CS4270#TSSOP24
 F http://www.mouser.com/ds/2/76/CS4270_F1-39353.pdf
 $ENDCMP

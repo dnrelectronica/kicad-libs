@@ -1,4 +1,4 @@
-(module SG5032 (layer F.Cu) (tedit 5D665095)
+(module SG5032 (layer F.Cu) (tedit 5D691DEB)
   (descr SOT353)
   (attr smd)
   (fp_text reference REF** (at 0 -4.5085) (layer F.SilkS)
@@ -21,4 +21,9 @@
   (pad 1 smd rect (at -1.27 1.1) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.27 -1.1) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -1.27 -1.1) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1.2 1.3 1))
+    (rotate (xyz 0 0 0))
+  )
 )
