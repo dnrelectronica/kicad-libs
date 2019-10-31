@@ -20,7 +20,23 @@ $CMP MAX809#SOT23
 F https://nl.mouser.com/datasheet/2/308/MAX809S-D-273965.pdf
 $ENDCMP
 #
+$CMP MCP4131#SO8
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP TL072CD#SO8
+F http://www.ti.com/lit/ds/symlink/tl074a.pdf
+$ENDCMP
+#
+$CMP TLV1117IDCY#SOT223
+F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
+$ENDCMP
+#
 $CMP TLV1117LV33#SOT223
+F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
+$ENDCMP
+#
+$CMP TLV1117LV50#SOT223
 F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
 $ENDCMP
 #

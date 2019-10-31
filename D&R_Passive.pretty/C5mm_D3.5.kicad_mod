@@ -1,4 +1,4 @@
-(module C5mm_D3.5 (layer F.Cu) (tedit 5D3841E9)
+(module C5mm_D3.5 (layer F.Cu) (tedit 5D78B5D7)
   (descr "Resistor, Axial,  RM 10mm, 1/3W,")
   (tags "Resistor, Axial, RM 10mm, 1/3W,")
   (fp_text reference REF** (at 0 -2.032) (layer F.SilkS)
@@ -16,9 +16,9 @@
   (fp_line (start -3.7 1.75) (end -3.7 -1.75) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -2.54 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.4 0.4 0.4))
+  (model ${KISYS3DMOD}/C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step
+    (offset (xyz -2.5 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

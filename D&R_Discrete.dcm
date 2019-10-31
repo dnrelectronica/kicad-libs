@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAV99#SOT23
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
+$ENDCMP
+#
 $CMP BAV99LT1#SOT23
 F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP

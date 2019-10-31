@@ -4,4 +4,12 @@ $CMP CONN_3011-02X17
 F http://www.oupiin.com.tw/product_iiii.html?gID=114
 $ENDCMP
 #
+$CMP DSUB_HD_44P_Female_90
+F https://katalog.we-online.de/em/datasheet/618044330923.pdf
+$ENDCMP
+#
+$CMP DSUB_HD_44P_Male_90
+F https://katalog.we-online.de/em/datasheet/6180xx331023.pdf
+$ENDCMP
+#
 #End Doc Library

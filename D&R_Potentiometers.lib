@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 3006P-1-202
+#
+DEF 3006P-1-202 VR 0 40 Y N 1 F N
+F0 "VR" 0 -100 50 H V C CNN
+F1 "3006P-1-202" 0 -160 50 H I C CNN
+F2 "D&R_Other:3006P" 0 -410 50 H I C CNN
+F3 "https://www.bourns.com/pdfs/3006.pdf" 0 -330 50 H I C CNN
+F4 "10300160" 50 -650 60 H I C CNN "D&R"
+F5 "THT" 0 -500 60 H I C CNN "Assembly Option"
+F6 "Bourns" 0 -260 60 H I C CNN "manf"
+F7 "3006P-1-202" 0 -570 60 H I C CNN "manf#"
+F8 "2K" 0 0 39 H V C CNN "Short Description"
+DRAW
+S -110 40 110 -40 0 1 0 N
+P 3 0 1 0 0 40 -20 60 20 60 F
+X 1 1 -200 0 87 R 40 40 1 1 P
+X 2 2 0 150 98 D 40 40 1 1 P
+X 3 3 200 0 87 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 3296Y-1-202
 #
 DEF 3296Y-1-202 VR 0 40 Y N 1 F N
@@ -8,11 +29,11 @@ F0 "VR" 0 -100 50 H V C CNN
 F1 "3296Y-1-202" 0 -160 50 H I C CNN
 F2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296Y" 0 -410 50 H I C CNN
 F3 "https://www.bourns.com/pdfs/3296.pdf" 0 -330 50 H I C CNN
-F4 "10300205" 0 -640 60 H I C CNN "D&R"
+F4 "10300202" 50 -650 60 H I C CNN "D&R"
 F5 "THT" 0 -500 60 H I C CNN "Assembly Option"
 F6 "Bourns" 0 -260 60 H I C CNN "manf"
-F7 "3296Z-1-203" 0 -570 60 H I C CNN "manf#"
-F8 "20K" 0 0 39 H V C CNN "Short Description"
+F7 "3296Z-1-202" 0 -570 60 H I C CNN "manf#"
+F8 "2K" 0 0 39 H V C CNN "Short Description"
 DRAW
 S -110 40 110 -40 0 1 0 N
 P 3 0 1 0 0 40 -20 60 20 60 F
