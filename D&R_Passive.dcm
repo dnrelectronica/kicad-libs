@@ -4,12 +4,24 @@ $CMP 10R#1206
 F http://www.farnell.com/datasheets/1786672.pdf
 $ENDCMP
 #
+$CMP 180R-400MHZ_1.5A#0603
+F http://www.farnell.com/datasheets/1920058.pdf?_ga=2.160476030.258143405.1577097099-1125542398.1573658843&_gac=1.216180580.1574688627.CjwKCAiAlO7uBRANEiwA_vXQ-w20jQhOBFtKp_0iKrhQxKsilHp8JlmVxEsCVx1mzrnit6tw8SKyfxoCr7EQAvD_BwE
+$ENDCMP
+#
 $CMP 3296Z-1-203
 F https://www.bourns.com/pdfs/3296.pdf
 $ENDCMP
 #
+$CMP 470U-ALU_10V#CASE_F
+F https://www.we-online.com/catalog/datasheet/865080253012.pdf
+$ENDCMP
+#
 $CMP 8U2H_1A#1812_L
 F http://katalog.we-online.de/pbs/datasheet/744045008.pdf
+$ENDCMP
+#
+$CMP PE-65812
+F https://nl.mouser.com/datasheet/2/336/pulse_PE-65x1-1199463.pdf
 $ENDCMP
 #
 $CMP PF0A3_60V#2920
@@ -18,6 +30,7 @@ $ENDCMP
 #
 $CMP PF0A75_24V#1812
 D Polyfuse 24V 750mA
+F http://www.farnell.com/datasheets/578244.pdf
 $ENDCMP
 #
 #End Doc Library

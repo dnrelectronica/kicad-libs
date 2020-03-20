@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC14#SO14
+D Hex inverter schmitt trigger
+K HCMOS not inverter
+F http://www.farnell.com/datasheets/2000343.pdf?_ga=2.106014656.258143405.1577097099-1125542398.1573658843&_gac=1.15388612.1574688627.CjwKCAiAlO7uBRANEiwA_vXQ-w20jQhOBFtKp_0iKrhQxKsilHp8JlmVxEsCVx1mzrnit6tw8SKyfxoCr7EQAvD_BwE
+$ENDCMP
+#
+$CMP 74HCU04#SO14
+D Unbuffered inverter
+K HCMOS not inverter
+F https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf
+$ENDCMP
+#
 $CMP BC808-50
 F http://www.nxp.com/documents/data_sheet/BC807_BC807W_BC327.pdf
 $ENDCMP
@@ -8,8 +20,46 @@ $CMP BM64
 F http://ww1.microchip.com/downloads/en/DeviceDoc/BM62-64-Bluetooth-Stereo-Audio-Module-Data-Sheet-DS60001403E.pdf
 $ENDCMP
 #
+$CMP BSC265N10#TDSON8
+F http://www.infineon.com/dgdl/Infineon-BSC265N10LSFG-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a375207b46
+$ENDCMP
+#
+$CMP CS42448#LQFP64
+F https://statics.cirrus.com/pubs/proDatasheet/CS42448_F5.pdf
+$ENDCMP
+#
 $CMP CS4270#TSSOP24
 F http://www.mouser.com/ds/2/76/CS4270_F1-39353.pdf
+$ENDCMP
+#
+$CMP CS5343#TSSOP10
+F https://nl.mouser.com/datasheet/2/76/CS5343-44_F5-1142054.pdf
+$ENDCMP
+#
+$CMP DIR9001#TSSOP28
+D Transmitter
+F http://www.ti.com/lit/ds/symlink/dir9001.pdf
+$ENDCMP
+#
+$CMP DIT4096#SSOP28
+D Receiver
+F https://www.ti.com/lit/ds/symlink/dit4096.pdf
+$ENDCMP
+#
+$CMP IRF7807ZP#SO8
+F https://www.infineon.com/dgdl/irf7807.pdf?fileId=5546d462533600a40153560805ad1ccf
+$ENDCMP
+#
+$CMP LM1972#SO20
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm1972
+$ENDCMP
+#
+$CMP LM337IMP#SOT223
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm137
+$ENDCMP
+#
+$CMP LM3488#VSSOP8
+F http://www.ti.com.cn/cn/lit/ds/symlink/lm3488.pdf
 $ENDCMP
 #
 $CMP LP2985A-50#SOT23-5
@@ -20,8 +70,30 @@ $CMP MAX809#SOT23
 F https://nl.mouser.com/datasheet/2/308/MAX809S-D-273965.pdf
 $ENDCMP
 #
+$CMP MCP3008#SO16
+D 8ch 10-bit ADC
+F http://www.farnell.com/datasheets/808965.pdf?_ga=2.224227032.298656336.1581432002-1125542398.1573658843
+$ENDCMP
+#
 $CMP MCP4131#SO8
 F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MMBFJ112#SOT23
+F http://www.mouser.com/ds/2/149/J112-889302.pdf
+$ENDCMP
+#
+$CMP PCM1781#SSOP16
+F http://www.ti.com/lit/ds/symlink/pcm1781.pdf
+$ENDCMP
+#
+$CMP PCM1804#SSOP28
+D ADC
+F https://www.ti.com/lit/ds/sles022c/sles022c.pdf
+$ENDCMP
+#
+$CMP RC4580ID#SO8
+F http://www.ti.com/lit/ds/symlink/rc4580.pdf
 $ENDCMP
 #
 $CMP TL072CD#SO8

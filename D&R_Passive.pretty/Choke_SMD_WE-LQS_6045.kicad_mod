@@ -1,4 +1,4 @@
-(module Choke_SMD_WE-LQS_6045 (layer F.Cu) (tedit 5D5FB1E2)
+(module Choke_SMD_WE-LQS_6045 (layer F.Cu) (tedit 5E45667F)
   (fp_text reference REF** (at 0 -4.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

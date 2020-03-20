@@ -1,7 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2P_ScrewTerminal
+F http://www.oupiin.com.tw/product_iiii.html?gID=381
+$ENDCMP
+#
+$CMP 8P_Screwterminal
+K screw terminal
+F http://www.oupiin.com.tw/product_iiii.html?gID=381
+$ENDCMP
+#
+$CMP CINCH-RCA-226P
+F V:\Datasheets ANs etc\Algemeen_mech
+$ENDCMP
+#
+$CMP CONN_3011-02X05
+F http://www.oupiin.com/download.html?dID=7919&lang=en
+$ENDCMP
+#
+$CMP CONN_3011-02X10
+D Connector 2x10 90gr
+F http://www.oupiin.com/download.html?dID=7919&lang=en
+$ENDCMP
+#
 $CMP CONN_3011-02X17
+D Conn 2x17 90gr
 F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3011-02X20
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3011-02X20_S
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3011-02X32
+K connector
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3012-02X20_S
+F https://www.oupiin.com/download.html?dID=7936&lang=en
 $ENDCMP
 #
 $CMP DSUB_HD_44P_Female_90
@@ -10,6 +50,20 @@ $ENDCMP
 #
 $CMP DSUB_HD_44P_Male_90
 F https://katalog.we-online.de/em/datasheet/6180xx331023.pdf
+$ENDCMP
+#
+$CMP RJ45_8949-ID2884
+F V:\Datasheets ANs etc\Conn\Oupiin\8949-AID288x-06SxBA-1081113.pdf
+$ENDCMP
+#
+$CMP WR-PHD_90_2X13_FEMALE
+K connector
+F https://katalog.we-online.de/em/datasheet/6101xx249221.pdf
+$ENDCMP
+#
+$CMP WR-PHD_90_2X13_MALE
+K connector
+F https://katalog.we-online.de/em/datasheet/6101xx249121.pdf
 $ENDCMP
 #
 #End Doc Library

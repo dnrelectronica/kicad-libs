@@ -1,7 +1,34 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Archwave_uRec2500
+F https://cdn-reichelt.de/documents/datenblatt/C140/DS_SL2X20G.pdf
+$ENDCMP
+#
+$CMP Card_Guide_CAH910-000
+F https://dutch.alibaba.com/product-detail/Taichen-China-Push-Type-Plastic-Nylon-62226084425.html?spm=a2700.7724838.2017115.99.301b6bbfkDVUYj
+$ENDCMP
+#
+$CMP Earth
+D Power symbol creates a global label with name "Earth"
+K power-flag ground gnd
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP LRS-75-24
 F http://www.mouser.com/ds/2/260/LRS-75-SPEC-806318.pdf
+$ENDCMP
+#
+$CMP PLR135-T10
+F http://www.everlight.com/file/ProductFile/PLR135-T10.pdf
+$ENDCMP
+#
+$CMP TORX173
+F http://images.100y.com.tw/pdf_file/23-TOSHIBA-TORX173.pdf
 $ENDCMP
 #
 #End Doc Library

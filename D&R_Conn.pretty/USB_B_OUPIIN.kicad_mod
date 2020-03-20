@@ -1,4 +1,4 @@
-(module USB_B_OUPIIN (layer F.Cu) (tedit 592D861C)
+(module USB_B_OUPIIN (layer F.Cu) (tedit 5DDE5DF4)
   (descr "USB B connector")
   (tags "USB_B USB_DEV")
   (fp_text reference REF** (at -4 -15.6) (layer F.SilkS)
@@ -26,7 +26,7 @@
   (pad 3 thru_hole circle (at -1.25 -11.61 180) (size 1.52 1.52) (drill 0.92) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -6.025 -8.9 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 6.025 -8.9 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask))
-  (model V:/08-KiCad/02-Library/D&R.3dshapes/USB_B_OUPIIN.wrl
+  (model "${KISYS3DMOD}/USB 2.0 Type B Connector Right Angle (Würth 61400416121).stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

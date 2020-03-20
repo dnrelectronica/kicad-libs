@@ -1,4 +1,4 @@
-(module HEADER_2x8_254 (layer F.Cu) (tedit 5D78BBAB)
+(module HEADER_2x8_254 (layer F.Cu) (tedit 5DEF8E19)
   (fp_text reference REF** (at 0 -3.556 180) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )

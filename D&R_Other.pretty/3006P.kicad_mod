@@ -1,7 +1,6 @@
-(module 3006P (layer F.Cu) (tedit 5D9B03AF)
+(module 3006P (layer F.Cu) (tedit 5E5E6362)
   (descr "Bourns trimpot Hor")
   (tags Potentiometer)
-  (attr virtual)
   (fp_text reference REF** (at -0.2 -4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,4 +19,9 @@
   (pad 1 thru_hole circle (at 1.197 -6.475) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -1.34 1.145) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.2 6.225) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/3006p.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

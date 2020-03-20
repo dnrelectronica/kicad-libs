@@ -1,8 +1,8 @@
-(module HEADER_3011-2x17_S (layer F.Cu) (tedit 5D653355)
+(module HEADER_3011-2x17_S (layer F.Cu) (tedit 5E3AD8A3)
   (fp_text reference REF** (at -29.3 -5.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value HEADER_3011-2x10_S (at 0 -5.4) (layer F.Fab)
+  (fp_text value HEADER_3011-2x17_S (at 0 -5.4) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.5 3) (end -2.5 3) (layer F.Fab) (width 0.3))
@@ -104,9 +104,9 @@
   (pad 32 thru_hole circle (at 17.78 -1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask))
   (pad 33 thru_hole circle (at 20.32 1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask))
   (pad 34 thru_hole circle (at 20.32 -1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/IDC-Header_2x17_P2.54mm_Vertical.step
-    (offset (xyz -20.3 -1.27 -0.1))
+  (model "${KISYS3DMOD}/IDC straight 34p lock.stp"
+    (offset (xyz 0.2 4.25 -2.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz -90 0 0))
   )
 )

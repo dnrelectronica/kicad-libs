@@ -1,4 +1,4 @@
-(module LQFP-48_7x7mm_P0.5mm (layer F.Cu) (tedit 5C18330E)
+(module LQFP-48_7x7mm_P0.5mm (layer F.Cu) (tedit 5DC01682)
   (descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "LQFP QFP")
   (attr smd)
@@ -97,7 +97,7 @@
   (pad 46 smd roundrect (at -1.75 -4.1625) (size 0.3 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 47 smd roundrect (at -2.25 -4.1625) (size 0.3 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 48 smd roundrect (at -2.75 -4.1625) (size 0.3 1.475) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.wrl
+  (model ${KISYS3DMOD}/TQFP-48_7x7mm_P0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
