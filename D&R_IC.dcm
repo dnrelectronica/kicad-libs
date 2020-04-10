@@ -109,7 +109,11 @@ F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
 $ENDCMP
 #
 $CMP TLV1117LV50#SOT223
-F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv1117
+$ENDCMP
+#
+$CMP XOSC24.576MHZ#3225
+F http://www.farnell.com/datasheets/2864171.pdf?_ga=2.60651885.1758481875.1585741978-1125542398.1573658843
 $ENDCMP
 #
 $CMP XOSC24.576MHZ#SG5032
