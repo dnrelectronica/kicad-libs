@@ -6,10 +6,18 @@ K HCMOS not inverter
 F http://www.farnell.com/datasheets/2000343.pdf?_ga=2.106014656.258143405.1577097099-1125542398.1573658843&_gac=1.15388612.1574688627.CjwKCAiAlO7uBRANEiwA_vXQ-w20jQhOBFtKp_0iKrhQxKsilHp8JlmVxEsCVx1mzrnit6tw8SKyfxoCr7EQAvD_BwE
 $ENDCMP
 #
+$CMP 74HC4053PW#TSSOP16
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4053.pdf
+$ENDCMP
+#
 $CMP 74HCU04#SO14
 D Unbuffered inverter
 K HCMOS not inverter
 F https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf
+$ENDCMP
+#
+$CMP AP7115_2V5#SOT353
+F https://www.diodes.com/assets/Datasheets/AP7115.pdf
 $ENDCMP
 #
 $CMP BC808-50
