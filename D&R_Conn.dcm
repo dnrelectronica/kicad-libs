@@ -13,6 +13,10 @@ $CMP CINCH-RCA-226P
 F V:\Datasheets ANs etc\Algemeen_mech
 $ENDCMP
 #
+$CMP CINCH4-LPA0863-B
+F http://fk-industrie.de/downloads/files/gifs/LPA0863-32.pdf
+$ENDCMP
+#
 $CMP CONN_3011-02X05
 F http://www.oupiin.com/download.html?dID=7919&lang=en
 $ENDCMP
