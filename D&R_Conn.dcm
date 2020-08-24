@@ -4,6 +4,16 @@ $CMP 2P_ScrewTerminal
 F http://www.oupiin.com.tw/product_iiii.html?gID=381
 $ENDCMP
 #
+$CMP 2P_Screwterminal
+K screw terminal
+F http://www.oupiin.com.tw/product_iiii.html?gID=381
+$ENDCMP
+#
+$CMP 6P_Screwterminal
+K screw terminal
+F http://www.oupiin.com.tw/product_iiii.html?gID=381
+$ENDCMP
+#
 $CMP 8P_Screwterminal
 K screw terminal
 F http://www.oupiin.com.tw/product_iiii.html?gID=381
@@ -36,6 +46,14 @@ F http://www.oupiin.com.tw/product_iiii.html?gID=114
 $ENDCMP
 #
 $CMP CONN_3011-02X20_S
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3011-02X25
+F http://www.oupiin.com.tw/product_iiii.html?gID=114
+$ENDCMP
+#
+$CMP CONN_3011-02X25_S
 F http://www.oupiin.com.tw/product_iiii.html?gID=114
 $ENDCMP
 #

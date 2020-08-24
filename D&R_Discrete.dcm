@@ -8,6 +8,12 @@ $CMP BAV99LT1#SOT23
 F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
 #
+$CMP BUI506
+D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
 $CMP IRF3205
 D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET
