@@ -1,4 +1,6 @@
-(module Type_L (layer F.Cu) (tedit 5E45665D)
+(module Type_L (layer F.Cu) (tedit 5F15A31B)
+  (descr 1050_L)
+  (attr smd)
   (fp_text reference REF** (at 0 1.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

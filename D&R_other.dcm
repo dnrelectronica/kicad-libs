@@ -27,6 +27,11 @@ $CMP PLR135-T10
 F http://www.everlight.com/file/ProductFile/PLR135-T10.pdf
 $ENDCMP
 #
+$CMP RFID-RC522
+K Module
+F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+$ENDCMP
+#
 $CMP TORX173
 F http://images.100y.com.tw/pdf_file/23-TOSHIBA-TORX173.pdf
 $ENDCMP

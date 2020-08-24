@@ -1,4 +1,4 @@
-(module RJ45_8949-ID2884 (layer F.Cu) (tedit 5E3A9E12)
+(module RJ45_8949-ID2884 (layer F.Cu) (tedit 5F2159AE)
   (fp_text reference P1 (at 14.859 0.889) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -55,9 +55,9 @@
   (pad 104 thru_hole circle (at 15.6 -22.4) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask))
   (pad 105 thru_hole circle (at -14.75 -20.12) (size 2.4 2.4) (drill 1.3) (layers *.Cu *.Mask))
   (pad 106 thru_hole circle (at 14.75 -16.82) (size 2.4 2.4) (drill 1.3) (layers *.Cu *.Mask))
-  (model "${KISYS3DMOD}/RJ45 test.step"
-    (offset (xyz 0 8.800000000000001 0))
-    (scale (xyz 1 0.8 1))
-    (rotate (xyz 0 0 0))
+  (model "${KISYS3DMOD}/RJ45 QUAD.STEP"
+    (offset (xyz 0 14 11.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )

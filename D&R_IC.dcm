@@ -16,6 +16,14 @@ K HCMOS not inverter
 F https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf
 $ENDCMP
 #
+$CMP AP2331#SOT23
+F http://www.diodes.com/_files/datasheets/AP2331.pdf
+$ENDCMP
+#
+$CMP AP7115#SOT353
+F https://www.diodes.com/assets/Datasheets/AP7115.pdf
+$ENDCMP
+#
 $CMP AP7115_2V5#SOT353
 F https://www.diodes.com/assets/Datasheets/AP7115.pdf
 $ENDCMP
@@ -50,8 +58,17 @@ F http://www.ti.com/lit/ds/symlink/dir9001.pdf
 $ENDCMP
 #
 $CMP DIT4096#SSOP28
-D Receiver
+D Transmitter
 F https://www.ti.com/lit/ds/symlink/dit4096.pdf
+$ENDCMP
+#
+$CMP DRV8848#HTSSOP16
+D Dual H-bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8848.pdf?ts=1591796510913&ref_url=https://www.google.com/
+$ENDCMP
+#
+$CMP ESD5384#9-UFBGA
+F http://www.onsemi.com/pub_link/Collateral/ESD5384-D.PDF
 $ENDCMP
 #
 $CMP IRF7807ZP#SO8
@@ -118,6 +135,10 @@ $ENDCMP
 #
 $CMP TLV1117LV50#SOT223
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv1117
+$ENDCMP
+#
+$CMP TPS561208#SOT23-6
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps561201
 $ENDCMP
 #
 $CMP XOSC24.576MHZ#3225

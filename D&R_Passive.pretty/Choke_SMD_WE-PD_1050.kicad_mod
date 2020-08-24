@@ -1,4 +1,4 @@
-(module Choke_SMD_WE-PD_1050 (layer F.Cu) (tedit 5D5FB5B0)
+(module Choke_SMD_WE-PD_1050 (layer F.Cu) (tedit 5F15A651)
   (descr "Choke, Drossel, WE-PDF, Wuerth, SMD,")
   (tags "Choke, Drossel, WE-PDF, Wuerth, SMD,")
   (attr smd)

@@ -1,4 +1,4 @@
-(module Choke_SMD_WE-TPC_5828 (layer F.Cu) (tedit 5E721283)
+(module Choke_SMD_WE-TPC_5828 (layer F.Cu) (tedit 5F15854E)
   (attr smd)
   (fp_text reference REF** (at -0.1 -4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

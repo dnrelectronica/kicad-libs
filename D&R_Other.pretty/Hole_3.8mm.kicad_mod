@@ -1,4 +1,4 @@
-(module Hole_3.8mm (layer F.Cu) (tedit 5D5A658C)
+(module Hole_3.8mm (layer F.Cu) (tedit 5F3BAC8E)
   (fp_text reference REF** (at 0 4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -35,5 +35,5 @@
   (fp_line (start 0.3 0.78143) (end 1 1.48143) (layer F.Fab) (width 0.15))
   (fp_line (start 0.3 3.1) (end 0.3 0.78143) (layer F.Fab) (width 0.15))
   (fp_line (start 0 3.1) (end 0.3 3.1) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.8) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 6.15 6.15) (drill 3.8) (layers *.Cu *.Mask))
 )
