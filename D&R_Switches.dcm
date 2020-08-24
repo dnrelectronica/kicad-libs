@@ -4,6 +4,10 @@ $CMP PB06-A-RG
 D Honyone PB06 Switch 12mm
 $ENDCMP
 #
+$CMP PB06-A-RG_2
+D Honyone PB06 Switch 12mm
+$ENDCMP
+#
 $CMP PB06-C-RG
 D Honyone PB06 Switch 17,4mm
 $ENDCMP

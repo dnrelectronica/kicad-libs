@@ -1,4 +1,4 @@
-(module LJB0671-12 (layer F.Cu) (tedit 5CDBF510)
+(module LJB0671-12 (layer F.Cu) (tedit 5F215E07)
   (fp_text reference J9 (at -10.9 -2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -28,4 +28,9 @@
   (pad 10 thru_hole oval (at -7.5 6.55) (size 2.7 3.2) (drill 1.6) (layers *.Cu *.Mask))
   (pad 11 thru_hole oval (at -4.25 -5.85) (size 2.7 3.2) (drill 1.6) (layers *.Cu *.Mask))
   (pad 12 thru_hole oval (at -4.25 5.85) (size 2.7 3.2) (drill 1.6) (layers *.Cu *.Mask))
+  (model "${KISYS3DMOD}/stacked jack.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

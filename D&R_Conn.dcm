@@ -66,6 +66,16 @@ $CMP CONN_3012-02X20_S
 F https://www.oupiin.com/download.html?dID=7936&lang=en
 $ENDCMP
 #
+$CMP Conn_01x08
+D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DDR2_SODIMM
+F http://www.te.com/usa-en/product-1473149-4.html
+$ENDCMP
+#
 $CMP DSUB_HD_44P_Female_90
 F https://katalog.we-online.de/em/datasheet/618044330923.pdf
 $ENDCMP
@@ -74,8 +84,16 @@ $CMP DSUB_HD_44P_Male_90
 F https://katalog.we-online.de/em/datasheet/6180xx331023.pdf
 $ENDCMP
 #
+$CMP HDMI_WR-COM
+F http://katalog.we-online.de/em/datasheet/685119135725.pdf
+$ENDCMP
+#
 $CMP RJ45_8949-ID2884
 F V:\Datasheets ANs etc\Conn\Oupiin\8949-AID288x-06SxBA-1081113.pdf
+$ENDCMP
+#
+$CMP USB_A
+F https://www.oupiin.com/download.html?act=gTData&dID=4506
 $ENDCMP
 #
 $CMP WR-PHD_90_2X13_FEMALE

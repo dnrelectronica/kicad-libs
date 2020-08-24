@@ -1,4 +1,4 @@
-(module RK09 (layer F.Cu) (tedit 5818B329)
+(module RK09 (layer F.Cu) (tedit 5ECE73B3)
   (fp_text reference REF** (at -3.1 -6.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,4 +30,9 @@
   (pad 4 thru_hole circle (at -2.5 10) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 10) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 2.5 10) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/P09N.STEP
+    (offset (xyz 0 -0.7 7.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
