@@ -9,6 +9,11 @@ K screw terminal
 F http://www.oupiin.com.tw/product_iiii.html?gID=381
 $ENDCMP
 #
+$CMP 3P_SCREW_TERMINAL_P3.96
+K screw terminal
+F ?
+$ENDCMP
+#
 $CMP 6P_Screwterminal
 K screw terminal
 F http://www.oupiin.com.tw/product_iiii.html?gID=381
@@ -88,8 +93,29 @@ $CMP HDMI_WR-COM
 F http://katalog.we-online.de/em/datasheet/685119135725.pdf
 $ENDCMP
 #
+$CMP OUPIIN-9111-42481
+D Backplane connector 48 pin oupiin
+F https://www.oupiin.com/download.html?act=gTData&dID=4744
+$ENDCMP
+#
+$CMP RJ45_100-1000M_MC001524
+D Dual LAN Transformer Jack, RJ45, 10/100/1000 BaseT
+K dual lan jack transformer
+F http://www.farnell.com/datasheets/2189841.pdf
+$ENDCMP
+#
 $CMP RJ45_8949-ID2884
 F V:\Datasheets ANs etc\Conn\Oupiin\8949-AID288x-06SxBA-1081113.pdf
+$ENDCMP
+#
+$CMP RJ45_LAN_TRAFO
+F http://katalog.we-online.com/pbs/datasheet/74990112116A.pdf
+$ENDCMP
+#
+$CMP RJ45_Multicomp_MC001516
+D Dual LAN Transformer Jack, RJ45, 10/100/1000 BaseT
+K dual lan jack transformer
+F http://www.farnell.com/datasheets/2189841.pdf
 $ENDCMP
 #
 $CMP USB_A

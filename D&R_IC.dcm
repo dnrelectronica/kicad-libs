@@ -10,10 +10,30 @@ $CMP 74HC4053PW#TSSOP16
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4053.pdf
 $ENDCMP
 #
+$CMP 74HCT595#SO16
+F https://datasheet.lcsc.com/szlcsc/1810111530_Nexperia-74HCT595D-118_C282339.pdf
+$ENDCMP
+#
 $CMP 74HCU04#SO14
 D Unbuffered inverter
 K HCMOS not inverter
 F https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf
+$ENDCMP
+#
+$CMP 74LVC244#TSSOP20
+F https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf?ts=1613131867210&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP 74LVC2G17DC#SOT363
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf
+$ENDCMP
+#
+$CMP 74LVC4245A#TSSOP24
+F https://www.mouser.com/datasheet/2/405/sn74lvc4245a-556734.pdf
+$ENDCMP
+#
+$CMP 88E6352#TQFP128P
+F V:\Datasheets ANs etc\IC\Marvell (avnet)\88E6352\88E6352.pdf
 $ENDCMP
 #
 $CMP AP2331#SOT23
@@ -26,6 +46,30 @@ $ENDCMP
 #
 $CMP AP7115_2V5#SOT353
 F https://www.diodes.com/assets/Datasheets/AP7115.pdf
+$ENDCMP
+#
+$CMP AP7115_3V3#SOT353
+F https://www.diodes.com/assets/Datasheets/AP7115.pdf
+$ENDCMP
+#
+$CMP AQY212EHA#SOIC4_W
+F http://www.mouser.com/ds/2/315/semi_eng_ge1a_aqy21_e-1075634.pdf
+$ENDCMP
+#
+$CMP AT90CAN64-16AU#TQFP64
+F http://www.farnell.com/datasheets/1130884.pdf
+$ENDCMP
+#
+$CMP ATSAME51J19A-AU#TQFP64
+F https://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D5x_E5x_Family_Data_Sheet_DS60001507G.pdf
+$ENDCMP
+#
+$CMP ATXMEGA32A4U#TQFP44
+F http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP BC807-25LT1#SOT23
+F http://www.nxp.com/documents/data_sheet/BC807_BC807W_BC327.pdf
 $ENDCMP
 #
 $CMP BC808-50
@@ -67,8 +111,16 @@ D Dual H-bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8848.pdf?ts=1591796510913&ref_url=https://www.google.com/
 $ENDCMP
 #
+$CMP EP2C5T144C7#TQFP144
+F V:\Datasheets ANs etc\IC\Altera\EP2C5T144C7.pdf
+$ENDCMP
+#
 $CMP ESD5384#9-UFBGA
 F http://www.onsemi.com/pub_link/Collateral/ESD5384-D.PDF
+$ENDCMP
+#
+$CMP FZT953#SOT223
+F http://www.farnell.com/datasheets/2239707.pdf
 $ENDCMP
 #
 $CMP IRF7807ZP#SO8
@@ -77,6 +129,10 @@ $ENDCMP
 #
 $CMP LM1972#SO20
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm1972
+$ENDCMP
+#
+$CMP LM311#TSSOP8
+F https://www.ti.com/lit/ds/symlink/lm311.pdf?ts=1600677830077&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
 $CMP LM337IMP#SOT223
@@ -89,6 +145,15 @@ $ENDCMP
 #
 $CMP LP2985A-50#SOT23-5
 F http://www.ti.com/lit/ds/symlink/lp2985a-50.pdf
+$ENDCMP
+#
+$CMP LT3471#DFN10
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
+$CMP M25P10-AVMN6TP#SO8
+D EEPROM used in AXUM
+F https://nl.mouser.com/datasheet/2/671/M25P10A-1283573.pdf
 $ENDCMP
 #
 $CMP MAX809#SOT23
@@ -108,6 +173,17 @@ $CMP MMBFJ112#SOT23
 F http://www.mouser.com/ds/2/149/J112-889302.pdf
 $ENDCMP
 #
+$CMP Marvell_88E6350R#TQFP128
+D Ethernet PHY/Switch
+F V:\Datasheets ANs etc\Modules\Audinate\Marvell\Marvell 886350R.pdf
+$ENDCMP
+#
+$CMP NUP4114#SOT363
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.farnell.com/datasheets/2028655.pdf
+$ENDCMP
+#
 $CMP PCM1781#SSOP16
 F http://www.ti.com/lit/ds/symlink/pcm1781.pdf
 $ENDCMP
@@ -121,12 +197,27 @@ $CMP RC4580ID#SO8
 F http://www.ti.com/lit/ds/symlink/rc4580.pdf
 $ENDCMP
 #
+$CMP SN65LVDM180#TSSOP14
+D Balanced line driver
+F https://www.ti.com/lit/ds/symlink/sn65lvdm180.pdf?ts=1612794223039&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP SP0504S#SOT23
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.farnell.com/datasheets/2099790.pdf
+$ENDCMP
+#
 $CMP TL072CD#SO8
 F http://www.ti.com/lit/ds/symlink/tl074a.pdf
 $ENDCMP
 #
+$CMP TL7705ACD#SO8
+F https://www.ti.com/lit/ds/symlink/tl7705a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1612740560267&ref_url=https%253A%252F%252Fwww.mouser.it%252F
+$ENDCMP
+#
 $CMP TLV1117IDCY#SOT223
-F http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf
+F https://www.ti.com/lit/ds/symlink/tlv1117.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1613044918718&ref_url=https%253A%252F%252Fwww.mouser.de%252F
 $ENDCMP
 #
 $CMP TLV1117LV33#SOT223
@@ -137,8 +228,20 @@ $CMP TLV1117LV50#SOT223
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv1117
 $ENDCMP
 #
+$CMP TPS54331D#SO8
+F https://www.ti.com/lit/ds/symlink/tps54331.pdf?ts=1612958263914&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP TPS561208#SOT23-6
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps561201
+$ENDCMP
+#
+$CMP TPS62410DRC#PVSON-10
+F https://www.ti.com/lit/ds/symlink/tps62410.pdf?ts=1612785604958&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP USB2517#QFN64
+F http://ww1.microchip.com/downloads/en/DeviceDoc/2517.pdf
 $ENDCMP
 #
 $CMP XOSC24.576MHZ#3225
@@ -147,6 +250,10 @@ $ENDCMP
 #
 $CMP XOSC24.576MHZ#SG5032
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en
+$ENDCMP
+#
+$CMP XOSC25MHZ_1V8#SG5032
+F http://www.farnell.com/datasheets/1883686.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -22,6 +22,19 @@ $CMP Hole_3.5mm
 D Connector 01x02
 $ENDCMP
 #
+$CMP MountingStut4mm
+D Afstandstift PCB 4mm/4,8mm
+F ~
+$ENDCMP
+#
+$CMP PCB_HOLDER_L_79300200
+D Connector 01x02
+$ENDCMP
+#
+$CMP PCB_HOLDER_R_79300200
+D Connector 01x02
+$ENDCMP
+#
 $CMP Platstaf_10x25
 D Connector 01x02
 $ENDCMP

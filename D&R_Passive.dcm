@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100N-X2_310V_AC
+F https://www.we-online.com/catalog/datasheet/890334023023.pdf
+$ENDCMP
+#
+$CMP 100U-X5R_6V3#1206
+F http://www.farnell.com/datasheets/2079196.pdf
+$ENDCMP
+#
 $CMP 10R#1206
 F http://www.farnell.com/datasheets/1786672.pdf
 $ENDCMP
@@ -12,8 +20,20 @@ $CMP 1R#1206
 F http://www.farnell.com/datasheets/1786672.pdf
 $ENDCMP
 #
+$CMP 220U-ALU_10V#8.0x6.5
+F https://nl.mouser.com/datasheet/2/445/865080249010-1726410.pdf
+$ENDCMP
+#
+$CMP 2U2H_1A5#5040_L
+F https://www.we-online.com/catalog/datasheet/744029002.pdf
+$ENDCMP
+#
 $CMP 3296Z-1-203
 F https://www.bourns.com/pdfs/3296.pdf
+$ENDCMP
+#
+$CMP 3U3H_3A4#5040_L
+F https://katalog.we-online.de/pbs/datasheet/74404054033.pdf
 $ENDCMP
 #
 $CMP 470U-ALU_10V#CASE_F
@@ -22,6 +42,12 @@ $ENDCMP
 #
 $CMP 8U2H_1A#1812_L
 F http://katalog.we-online.de/pbs/datasheet/744045008.pdf
+$ENDCMP
+#
+$CMP Choke_10mH_WE_FC
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F https://nl.mouser.com/datasheet/2/445/7448640402-1723274.pdf
 $ENDCMP
 #
 $CMP PE-65812
@@ -36,6 +62,14 @@ $ENDCMP
 $CMP PF0A75_24V#1812
 D Polyfuse 24V 750mA
 F http://www.farnell.com/datasheets/578244.pdf
+$ENDCMP
+#
+$CMP PF1A5_33V#2920
+F http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP PF1A5_6V#1210
+F http://www.mouser.com/ds/2/418/NG_CS_CLP00010_A_CLP00010-735728.pdf
 $ENDCMP
 #
 #End Doc Library

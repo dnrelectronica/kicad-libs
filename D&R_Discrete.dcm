@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B160B#SMB
+F https://www.diodes.com/assets/Datasheets/ds13002.pdf
+$ENDCMP
+#
+$CMP B340#SMB
+F http://www.diodes.com/_files/datasheets/ds30923.pdf
+$ENDCMP
+#
 $CMP BAV99#SOT23
 F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
@@ -48,6 +56,26 @@ $CMP IRLZ44N
 D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$ENDCMP
+#
+$CMP LED0805BLUE#0805LED
+F http://www.farnell.com/datasheets/1740214.pdf
+$ENDCMP
+#
+$CMP LED1206REV_GRN
+F http://www.farnell.com/datasheets/2046332.pdf
+$ENDCMP
+#
+$CMP LED1206REV_RED
+F http://www.farnell.com/datasheets/1655876.pdf
+$ENDCMP
+#
+$CMP LED1206REV_YELL
+F http://www.farnell.com/datasheets/2045991.pdf
+$ENDCMP
+#
+$CMP S1M#SMA
+F http://www.farnell.com/datasheets/2304056.pdf
 $ENDCMP
 #
 $CMP Si4848ADY#SO8

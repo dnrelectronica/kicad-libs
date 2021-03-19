@@ -1,0 +1,12 @@
+
+(module Dante
+  (layer F.Cu)
+  (at 0 0)
+  (fp_text reference "VAL***" (at 0 10) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text reference "Dante" (at 0 5) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+)
+

@@ -4,7 +4,11 @@ $CMP Archwave_uRec2500
 F https://cdn-reichelt.de/documents/datenblatt/C140/DS_SL2X20G.pdf
 $ENDCMP
 #
-$CMP Card_Guide_CAH910-000
+$CMP Audinate_BrooklynII_PCImini-Conn
+F https://www.tme.eu/Document/c11ddc11d874bf80d2bd404b63ce9e13/114b-92b00-r02.pdf
+$ENDCMP
+#
+$CMP Card_Guide_CCA-10
 F https://dutch.alibaba.com/product-detail/Taichen-China-Push-Type-Plastic-Nylon-62226084425.html?spm=a2700.7724838.2017115.99.301b6bbfkDVUYj
 $ENDCMP
 #
@@ -19,8 +23,32 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP IRM-05-5
+F https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF
+$ENDCMP
+#
+$CMP LRS-35-12_noMains
+F http://www.meanwell.com/mw_search/LRS-35/LRS-35-spec.pdf
+$ENDCMP
+#
 $CMP LRS-75-24
 F http://www.mouser.com/ds/2/260/LRS-75-SPEC-806318.pdf
+$ENDCMP
+#
+$CMP Lightpipe_10LED_90_1271.1010
+F http://www.farnell.com/datasheets/436385.pdf
+$ENDCMP
+#
+$CMP Lightpipe_2LED_90_1271.1010
+F http://www.farnell.com/datasheets/436385.pdf
+$ENDCMP
+#
+$CMP Lightpipe_KSMD04-13
+F https://download.khatod.com/documents/ksmz01_catalogue.pdf
+$ENDCMP
+#
+$CMP Lightpipe_KSMD08-075
+F https://download.khatod.com/documents/ksmz01_catalogue.pdf
 $ENDCMP
 #
 $CMP PLR135-T10
@@ -34,6 +62,10 @@ $ENDCMP
 #
 $CMP TORX173
 F http://images.100y.com.tw/pdf_file/23-TOSHIBA-TORX173.pdf
+$ENDCMP
+#
+$CMP XTAL25.0MHZ#2.5X3.2
+F http://www.farnell.com/datasheets/1700989.pdf
 $ENDCMP
 #
 #End Doc Library
