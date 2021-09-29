@@ -64,6 +64,10 @@ $CMP TORX173
 F http://images.100y.com.tw/pdf_file/23-TOSHIBA-TORX173.pdf
 $ENDCMP
 #
+$CMP XTAL24.576MHZ#HC49-SD
+F https://nl.mouser.com/datasheet/2/96/008-0309-0-786275.pdf
+$ENDCMP
+#
 $CMP XTAL25.0MHZ#2.5X3.2
 F http://www.farnell.com/datasheets/1700989.pdf
 $ENDCMP

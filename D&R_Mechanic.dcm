@@ -10,6 +10,11 @@ D Panasonic miniature DPDT relay
 K Miniature Polarised Relay Dual Pole Monostable
 $ENDCMP
 #
+$CMP AZ850P1-x_copy_copy
+D Panasonic miniature DPDT relay
+K Miniature Polarised Relay Dual Pole Monostable
+$ENDCMP
+#
 $CMP Hole_2.1mm
 D Connector 01x02
 $ENDCMP
@@ -35,8 +40,18 @@ $CMP PCB_HOLDER_R_79300200
 D Connector 01x02
 $ENDCMP
 #
+$CMP Platstaf_10x10
+D Connector 01x02
+$ENDCMP
+#
 $CMP Platstaf_10x25
 D Connector 01x02
+$ENDCMP
+#
+$CMP SW_2xDPDT_mini_Alps
+D Alps mini DPDT 90deg
+K Switch mini DPDT Alps
+F https://nl.rs-online.com/web/p/push-button-switches/7582118/
 $ENDCMP
 #
 $CMP SW_DPDT_mini_Alps

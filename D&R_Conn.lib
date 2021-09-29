@@ -199,6 +199,34 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BNC_8928-B1_75A
+#
+DEF BNC_8928-B1_75A J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "BNC_8928-B1_75A" 0 200 50 H V C CNN
+F2 "D&R_Conn:BNC_8928-B1_75A" 0 -475 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10600235" 0 -375 60 H I C CNN "D&R"
+F5 "Oupiin" 50 -625 60 H I C CNN "Manf"
+F6 "THT" 0 -725 60 H I C CNN "Mounting Option"
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CINCH-LPA0860V
 #
 DEF CINCH-LPA0860V K 0 30 Y N 1 F N
@@ -2583,7 +2611,6 @@ F0 "P" 0 450 50 H V C CNN
 F1 "Cortex_DebugHeader_2x05P" 0 -250 50 H V C CNN
 F2 "D&R_Conn:CortexDebug_2x05P" 25 -600 50 H I C CNN
 F3 "" 0 -475 50 H V C CNN
-F4 "https://nl.mouser.com/datasheet/2/527/eshf-1316950.pdf" 100 650 60 H I C CNN "D&R"
 $FPLIST
  Pin_Header_Straight_2X10
  Pin_Header_Angled_2X10
@@ -3583,6 +3610,30 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Hole_3.8x4.4mm
+#
+DEF Hole_3.8x4.4mm P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "Hole_3.8x4.4mm" 100 0 50 V V C CNN
+F2 "D&R_Conn:Hole_3.8x4.4mm" 10 270 50 H I C CNN
+F3 "" 0 -640 50 H I C CNN
+F4 "-" 0 -370 60 H I C CNN "manf"
+F5 "-" 0 -300 60 H I C CNN "manf#"
+F6 "-" 0 -460 60 H I C CNN "Gender"
+F7 "-" 0 -550 60 H I C CNN "D&R"
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 5 10 -5 0 1 0 N
+S -50 50 50 -50 0 1 0 N
+X P1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jack-LJ0697H-5
 #
 DEF Jack-LJ0697H-5 J 0 0 N Y 1 F N
@@ -4079,6 +4130,7 @@ F4 "XXXXXXXX" 0 -1475 60 H I C CNN "D&R"
 F5 "MC001524" -250 -850 60 H V C CNN "manf#"
 F6 "MC001524" 0 -1075 60 H I C CNN "Short Description"
 F7 "Multicomp" 25 -1275 60 H I C CNN "manf"
+F8 "Assembly Option" 0 0 60 H I C CNN "Assembly Option"
 $FPLIST
  RJ45*Wuerth*7499151120*
 $ENDFPLIST
@@ -4622,12 +4674,13 @@ F0 "J" -225 925 50 H V C CNN
 F1 "RJ45_Multicomp_MC001516" 0 -1375 50 H I C CNN
 F2 "D&R_Conn:RJ45_Multicomp_MC001516" 25 -1175 50 H I C CNN
 F3 "" 185 -155 50 H I L TNN
-F4 "XXXXXXXX" 0 -1475 60 H I C CNN "D&R"
+F4 "10600215" 0 -1475 60 H I C CNN "D&R"
 F5 "MC001516" -250 -850 60 H V C CNN "manf#"
 F6 "MC001516" 0 -1075 60 H I C CNN "Short Description"
 F7 "Multicomp" 25 -1275 60 H I C CNN "manf"
 F8 "7499110122" 0 0 50 H I C CNN "Alternative nr"
 F9 "Wurth" 0 0 50 H I C CNN "Alternative Manf:"
+F10 "THT" 0 0 60 H I C CNN "Assembly Option"
 $FPLIST
  RJ45*Wuerth*7499151120*
 $ENDFPLIST

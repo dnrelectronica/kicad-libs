@@ -24,6 +24,12 @@ K screw terminal
 F http://www.oupiin.com.tw/product_iiii.html?gID=381
 $ENDCMP
 #
+$CMP BNC_8928-B1_75A
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
 $CMP CINCH-RCA-226P
 F V:\Datasheets ANs etc\Algemeen_mech
 $ENDCMP
@@ -75,6 +81,10 @@ $CMP Conn_01x08
 D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP Cortex_DebugHeader_2x05P
+F https://nl.mouser.com/datasheet/2/527/eshf-1316950.pdf
 $ENDCMP
 #
 $CMP DDR2_SODIMM

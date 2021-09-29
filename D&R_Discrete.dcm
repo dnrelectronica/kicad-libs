@@ -22,40 +22,14 @@ K rectifier acdc
 F http://www.vishay.com/docs/88656/gbu4a.pdf
 $ENDCMP
 #
-$CMP IRF3205
-D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
+$CMP DFLS1100#PDI123
+F file:///C:/Users/jvand/Downloads/ds30497.pdf
 $ENDCMP
 #
-$CMP IRF540N
-D 33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220
-K HEXFET N-Channel MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
-$ENDCMP
-#
-$CMP IRF740
-D 10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB
-K N Channel
-F http://www.vishay.com/docs/91054/91054.pdf
-$ENDCMP
-#
-$CMP IRLB8721PBF
-D 62A Id, 30V Vds, N-Channel MOSFET, TO-220
-K N-Channel HEXFET Power MOSFET
-F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
-$ENDCMP
-#
-$CMP IRLZ34N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
-$ENDCMP
-#
-$CMP IRLZ44N
-D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$CMP FDN340P#SOT23
+D 2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23
+K P-Channel MOSFET
+F http://www.farnell.com/datasheets/2298381.pdf
 $ENDCMP
 #
 $CMP LED0805BLUE#0805LED

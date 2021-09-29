@@ -6,6 +6,10 @@ K HCMOS not inverter
 F http://www.farnell.com/datasheets/2000343.pdf?_ga=2.106014656.258143405.1577097099-1125542398.1573658843&_gac=1.15388612.1574688627.CjwKCAiAlO7uBRANEiwA_vXQ-w20jQhOBFtKp_0iKrhQxKsilHp8JlmVxEsCVx1mzrnit6tw8SKyfxoCr7EQAvD_BwE
 $ENDCMP
 #
+$CMP 74HC4046#TSSOP16
+F https://www.ti.com/lit/ds/symlink/cd74hc4046a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1630003279980&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
 $CMP 74HC4053PW#TSSOP16
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4053.pdf
 $ENDCMP
@@ -56,6 +60,10 @@ $CMP AQY212EHA#SOIC4_W
 F http://www.mouser.com/ds/2/315/semi_eng_ge1a_aqy21_e-1075634.pdf
 $ENDCMP
 #
+$CMP AT90CAN128-16AU#TQFP64
+F http://www.farnell.com/datasheets/1130884.pdf
+$ENDCMP
+#
 $CMP AT90CAN64-16AU#TQFP64
 F http://www.farnell.com/datasheets/1130884.pdf
 $ENDCMP
@@ -84,6 +92,15 @@ $CMP BSC265N10#TDSON8
 F http://www.infineon.com/dgdl/Infineon-BSC265N10LSFG-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a375207b46
 $ENDCMP
 #
+$CMP CDCE913#TSSOP14
+F https://www.ti.com/lit/ds/scas918c/scas918c.pdf?ts=1630047324146&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP CDCE925#TSSOP16
+D 5 output clock generator
+F https://www.ti.com/lit/ds/symlink/cdce925.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1630313170406&ref_url=https%253A%252F%252Fnl.mouser.com%252F
+$ENDCMP
+#
 $CMP CS42448#LQFP64
 F https://statics.cirrus.com/pubs/proDatasheet/CS42448_F5.pdf
 $ENDCMP
@@ -106,12 +123,20 @@ D Transmitter
 F https://www.ti.com/lit/ds/symlink/dit4096.pdf
 $ENDCMP
 #
+$CMP DMG1012T#SOT523
+F https://www.centralsemi.com/PDFs/case/SOT-523PD.PDF
+$ENDCMP
+#
 $CMP DRV8848#HTSSOP16
 D Dual H-bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8848.pdf?ts=1591796510913&ref_url=https://www.google.com/
 $ENDCMP
 #
 $CMP EP2C5T144C7#TQFP144
+F V:\Datasheets ANs etc\IC\Altera\EP2C5T144C7.pdf
+$ENDCMP
+#
+$CMP EP2C8T144C7#TQFP144
 F V:\Datasheets ANs etc\IC\Altera\EP2C5T144C7.pdf
 $ENDCMP
 #
@@ -127,8 +152,17 @@ $CMP IRF7807ZP#SO8
 F https://www.infineon.com/dgdl/irf7807.pdf?fileId=5546d462533600a40153560805ad1ccf
 $ENDCMP
 #
+$CMP IS25LQ040B#SO8
+D 4 MB EEPROM used in AXUM
+F https://nl.mouser.com/datasheet/2/198/25LQ025B-512B-010B-020B-040B-706473.pdf
+$ENDCMP
+#
 $CMP LM1972#SO20
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm1972
+$ENDCMP
+#
+$CMP LM25575#HTSSOP16
+F http://www.ti.com/lit/ds/symlink/lm25575.pdf
 $ENDCMP
 #
 $CMP LM311#TSSOP8
@@ -158,6 +192,11 @@ $ENDCMP
 #
 $CMP MAX809#SOT23
 F https://nl.mouser.com/datasheet/2/308/MAX809S-D-273965.pdf
+$ENDCMP
+#
+$CMP MC74VHC1G32#SOT23
+D single 2 input or gate
+F https://www.farnell.com/datasheets/1818219.pdf
 $ENDCMP
 #
 $CMP MCP3008#SO16

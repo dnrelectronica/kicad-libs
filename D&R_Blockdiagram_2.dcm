@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DSUB44
+F https://katalog.we-online.de/em/datasheet/618044330923.pdf
+$ENDCMP
+#
 #End Doc Library

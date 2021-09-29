@@ -4,4 +4,8 @@ $CMP ED1115S
 F http://www.song-huei.com/proimages/eng/pdfimages/ED1115S(%E8%8B%B1).pdf
 $ENDCMP
 #
+$CMP RK0952G-1_10KB_20mm
+F http://www.song-huei.com/proimages//eng/pdfimages/RK0952G-1.pdf
+$ENDCMP
+#
 #End Doc Library
